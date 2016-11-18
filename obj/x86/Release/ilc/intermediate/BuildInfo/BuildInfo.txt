@@ -14,6 +14,7 @@ Microsoft.ApplicationInsights.PersistenceChannel.dll    : 1.0.0.4223
 Microsoft.Azure.Amqp.Uwp.dll                            : 1.1.0.0
 Microsoft.Azure.Devices.Uwp.dll                         : 1.0.0.0
 Microsoft.CSharp.dll                                    : 4.6.23123.00
+Microsoft.IoT.DeviceHelpers.dll                         : 1.0.0.0
 Microsoft.VisualBasic.dll                               : 4.6.23123.00 built by: PROJECTKREL
 Microsoft.Win32.Primitives.dll                          : 4.6.23123.00
 mscorlib.dll                                            : 4.6.23123.0

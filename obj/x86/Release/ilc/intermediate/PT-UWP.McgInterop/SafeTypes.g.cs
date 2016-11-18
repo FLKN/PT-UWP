@@ -1669,6 +1669,4117 @@ namespace Microsoft.Azure.Devices.Client.Errors
 	}
 }
 
+namespace Microsoft.IoT.DeviceCore
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.IScheduleOptionsClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.ScheduleOptions,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyTo" +
+		"ken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ScheduleOptions : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.IScheduleOptionsClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ScheduleOptions(uint reportInterval)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ScheduleOptions(
+					uint updateInterval, 
+					global::Microsoft.IoT.DeviceCore.SchedulerPriority priority)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Priority")]
+		public global::Microsoft.IoT.DeviceCore.SchedulerPriority get_Priority()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.SchedulerPriority);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UpdateInterval")]
+		public uint get_UpdateInterval()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Microsoft.IoT.DeviceCore.ScheduleOptions WithNewPriority(global::Microsoft.IoT.DeviceCore.SchedulerPriority priority)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.ScheduleOptions);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Microsoft.IoT.DeviceCore.ScheduleOptions WithNewUpdateInterval(uint updateInterval)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.ScheduleOptions);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.IScheduledUpdaterClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.ScheduledUpdater,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyT" +
+		"oken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ScheduledUpdater : global::System.__ComObject, global::System.IDisposable, global::Microsoft.IoT.DeviceCore.IEventObserver, global::Microsoft.IoT.DeviceCore.IScheduledUpdaterClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ScheduledUpdater(global::Microsoft.IoT.DeviceCore.ScheduleOptions scheduleOptions)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ScheduledUpdater(
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions scheduleOptions, 
+					global::Microsoft.IoT.DeviceCore.IScheduler scheduler)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Microsoft.IoT.DeviceCore.IEventObserver.FirstAdded")]
+		void global::Microsoft.IoT.DeviceCore.IEventObserver.FirstAdded(object sender)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Microsoft.IoT.DeviceCore.IEventObserver.Added")]
+		void global::Microsoft.IoT.DeviceCore.IEventObserver.Added(object sender)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Microsoft.IoT.DeviceCore.IEventObserver.Removed")]
+		void global::Microsoft.IoT.DeviceCore.IEventObserver.Removed(object sender)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Microsoft.IoT.DeviceCore.IEventObserver.LastRemoved")]
+		void global::Microsoft.IoT.DeviceCore.IEventObserver.LastRemoved(object sender)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Started")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Started(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Starting")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Starting(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Stopped")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Stopped(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Stopping")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Stopping(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsStarted")]
+		public bool get_IsStarted()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ScheduleOptions")]
+		public global::Microsoft.IoT.DeviceCore.ScheduleOptions get_ScheduleOptions()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.ScheduleOptions);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Scheduler")]
+		public global::Microsoft.IoT.DeviceCore.IScheduler get_Scheduler()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.IScheduler);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "StartWithEvents")]
+		public bool get_StartWithEvents()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "StopWithEvents")]
+		public bool get_StopWithEvents()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UpdateInterval")]
+		public uint get_UpdateInterval()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "StartWithEvents")]
+		public void put_StartWithEvents(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "StopWithEvents")]
+		public void put_StopWithEvents(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UpdateInterval")]
+		public void put_UpdateInterval(uint value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Started")]
+		public void remove_Started(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Starting")]
+		public void remove_Starting(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Stopped")]
+		public void remove_Stopped(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Stopping")]
+		public void remove_Stopping(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void SetAsyncUpdateAction(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction asyncUpdateAction)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void SetUpdateAction(global::Microsoft.IoT.DeviceCore.ScheduledAction updateAction)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Start()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Stop()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.IEmptyEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.EmptyEventArgs,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyTok" +
+		"en=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class EmptyEventArgs : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.IEmptyEventArgs, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public EmptyEventArgs()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Instance")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Microsoft.IoT.DeviceCore.EmptyEventArgs get_Instance()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.EmptyEventArgs);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.IDispatcherExtensionsClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.DispatcherExtensions,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, Public" +
+		"KeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class DispatcherExtensions : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.IDispatcherExtensionsClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncAction RunAsync(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncAction RunIdleAsync(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void RunIdle(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void Run(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.IGpioExtensionsClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.GpioExtensions,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyTok" +
+		"en=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class GpioExtensions : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.IGpioExtensionsClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void SetDriveModeWithFallback(
+					global::Windows.Devices.Gpio.GpioPin pin, 
+					global::Windows.Devices.Gpio.GpioPinDriveMode driveMode)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void SetDriveModeWithFallback(
+					global::Windows.Devices.Gpio.GpioPin pin, 
+					global::Windows.Devices.Gpio.GpioPinDriveMode driveMode, 
+					global::Windows.Devices.Gpio.GpioPinDriveMode fallbackMode)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.ISchedulerClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Scheduler,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
+		"ll, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class Scheduler : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.IScheduler, global::Microsoft.IoT.DeviceCore.ISchedulerClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public Scheduler()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Default")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Microsoft.IoT.DeviceCore.Scheduler get_Default()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Scheduler);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Resume(global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Resume(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Schedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Schedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Suspend(global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Suspend(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Unschedule(global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Unschedule(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void UpdateSchedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void UpdateSchedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AutoStart")]
+		public bool get_AutoStart()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsRunning")]
+		public bool get_IsRunning()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AutoStart")]
+		public void put_AutoStart(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Start()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Stop()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IScheduler
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Resume(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Resume(global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Schedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Schedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Suspend(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Suspend(global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Unschedule(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Unschedule(global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void UpdateSchedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void UpdateSchedule(
+					global::Microsoft.IoT.DeviceCore.ScheduledAction subscriber, 
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions options);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe delegate global::Windows.Foundation.IAsyncAction ScheduledAsyncAction();
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe delegate void ScheduledAction();
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IScheduleOptionsFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateScheduleOptions(uint reportInterval);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateScheduleOptions(
+					uint updateInterval, 
+					global::Microsoft.IoT.DeviceCore.SchedulerPriority priority);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IScheduleOptionsClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Priority")]
+		global::Microsoft.IoT.DeviceCore.SchedulerPriority get_Priority();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UpdateInterval")]
+		uint get_UpdateInterval();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Microsoft.IoT.DeviceCore.ScheduleOptions WithNewPriority(global::Microsoft.IoT.DeviceCore.SchedulerPriority priority);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Microsoft.IoT.DeviceCore.ScheduleOptions WithNewUpdateInterval(uint updateInterval);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDevice : global::System.IDisposable
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IScheduledUpdaterFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateScheduledUpdater(global::Microsoft.IoT.DeviceCore.ScheduleOptions scheduleOptions);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateScheduledUpdater(
+					global::Microsoft.IoT.DeviceCore.ScheduleOptions scheduleOptions, 
+					global::Microsoft.IoT.DeviceCore.IScheduler scheduler);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IScheduledUpdaterClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Started")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Started(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Starting")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Starting(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Stopped")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Stopped(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Stopping")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Stopping(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.ScheduledUpdater, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsStarted")]
+		bool get_IsStarted();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ScheduleOptions")]
+		global::Microsoft.IoT.DeviceCore.ScheduleOptions get_ScheduleOptions();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Scheduler")]
+		global::Microsoft.IoT.DeviceCore.IScheduler get_Scheduler();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "StartWithEvents")]
+		bool get_StartWithEvents();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "StopWithEvents")]
+		bool get_StopWithEvents();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UpdateInterval")]
+		uint get_UpdateInterval();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "StartWithEvents")]
+		void put_StartWithEvents(bool value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "StopWithEvents")]
+		void put_StopWithEvents(bool value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UpdateInterval")]
+		void put_UpdateInterval(uint value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Started")]
+		void remove_Started(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Starting")]
+		void remove_Starting(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Stopped")]
+		void remove_Stopped(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Stopping")]
+		void remove_Stopping(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetAsyncUpdateAction(global::Microsoft.IoT.DeviceCore.ScheduledAsyncAction asyncUpdateAction);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetUpdateAction(global::Microsoft.IoT.DeviceCore.ScheduledAction updateAction);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Start();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Stop();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IEmptyEventArgsStatic
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Instance")]
+		global::Microsoft.IoT.DeviceCore.EmptyEventArgs get_Instance();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IEmptyEventArgs
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IEventObserver
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Added(object sender);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void FirstAdded(object sender);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void LastRemoved(object sender);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Removed(object sender);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDispatcherExtensionsStatic
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction RunAsync(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction RunIdleAsync(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void RunIdle(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Run(
+					global::Windows.UI.Core.CoreDispatcher dispatcher, 
+					global::Windows.UI.Core.DispatchedHandler handler);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDispatcherExtensionsClass
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGpioExtensionsStatic
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetDriveModeWithFallback(
+					global::Windows.Devices.Gpio.GpioPin pin, 
+					global::Windows.Devices.Gpio.GpioPinDriveMode driveMode);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetDriveModeWithFallback(
+					global::Windows.Devices.Gpio.GpioPin pin, 
+					global::Windows.Devices.Gpio.GpioPinDriveMode driveMode, 
+					global::Windows.Devices.Gpio.GpioPinDriveMode fallbackMode);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGpioExtensionsClass
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISchedulerStatic
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Default")]
+		global::Microsoft.IoT.DeviceCore.Scheduler get_Default();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISchedulerClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AutoStart")]
+		bool get_AutoStart();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsRunning")]
+		bool get_IsRunning();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AutoStart")]
+		void put_AutoStart(bool value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Start();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Stop();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IScheduledDevice : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ReportInterval")]
+		uint get_ReportInterval();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ReportInterval")]
+		void put_ReportInterval(uint value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IClosable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Close();
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum SchedulerPriority
+	{
+		Default = 0,
+		High = 1,
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum RotationDirection
+	{
+		Clockwise = 0,
+		Counterclockwise = 1,
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Adc
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Adc.IAdcProviderManagerClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Adc.AdcProviderManager,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, Publ" +
+		"icKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class AdcProviderManager : global::System.__ComObject, global::Windows.Devices.Adc.Provider.IAdcProvider, global::System.IDisposable, global::Microsoft.IoT.DeviceCore.Adc.IAdcProviderManagerClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public AdcProviderManager()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Devices.Adc.Provider.IAdcProvider.GetControllers")]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.Provider.IAdcControllerProvider> global::Windows.Devices.Adc.Provider.IAdcProvider.GetControllers()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.Provider.IAdcControllerProvider>);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Providers")]
+		public global::System.Collections.Generic.IList<global::Windows.Devices.Adc.Provider.IAdcControllerProvider> get_Providers()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Collections.Generic.IList<global::Windows.Devices.Adc.Provider.IAdcControllerProvider>);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> GetControllersAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>>);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAdcProviderManagerClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Providers")]
+		global::System.Collections.Generic.IList<global::Windows.Devices.Adc.Provider.IAdcControllerProvider> get_Providers();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> GetControllersAsync();
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Controls
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Controls.IGraphicsDisplayPanelClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Controls.GraphicsDisplayPanel,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutra" +
+		"l, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class GraphicsDisplayPanel : global::Windows.UI.Xaml.Controls.ContentControl, global::Microsoft.IoT.DeviceCore.Controls.IGraphicsDisplayPanelClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public GraphicsDisplayPanel() : 
+				base(default(global::System.IntPtr))
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AutoUpdate")]
+		public bool get_AutoUpdate()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Display")]
+		public global::Microsoft.IoT.DeviceCore.Display.IGraphicsDisplay get_Display()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Display.IGraphicsDisplay);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UpdateInterval")]
+		public uint get_UpdateInterval()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AutoUpdate")]
+		public void put_AutoUpdate(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Display")]
+		public void put_Display(global::Microsoft.IoT.DeviceCore.Display.IGraphicsDisplay value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UpdateInterval")]
+		public void put_UpdateInterval(uint value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGraphicsDisplayPanelClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AutoUpdate")]
+		bool get_AutoUpdate();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Display")]
+		global::Microsoft.IoT.DeviceCore.Display.IGraphicsDisplay get_Display();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UpdateInterval")]
+		uint get_UpdateInterval();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AutoUpdate")]
+		void put_AutoUpdate(bool value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Display")]
+		void put_Display(global::Microsoft.IoT.DeviceCore.Display.IGraphicsDisplay value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UpdateInterval")]
+		void put_UpdateInterval(uint value);
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Display
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Display.IGraphicsToolsClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Display.GraphicsTools,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, Publi" +
+		"cKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class GraphicsTools : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Display.IGraphicsToolsClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static int GetBitsPerPixel(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat format)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static ushort GetNativeColor(
+					global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat format, 
+					byte red, 
+					byte green, 
+					byte blue)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static ushort GetNativeColor(
+					global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat format, 
+					global::Windows.UI.Color color)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static bool IsAspectChanging(
+					global::Windows.Graphics.Display.DisplayOrientations oldOrientation, 
+					global::Windows.Graphics.Display.DisplayOrientations newOrientation)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGraphicsDisplay : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Clear();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void DrawPixel(
+					int x, 
+					int y, 
+					global::Windows.UI.Color color);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void DrawPixel(
+					int x, 
+					int y, 
+					byte red, 
+					byte green, 
+					byte blue);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		bool IsOrientationSupported(global::Windows.Graphics.Display.DisplayOrientations orientation);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Update();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AutoUpdate")]
+		bool get_AutoUpdate();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AutoUpdate")]
+		void put_AutoUpdate(bool value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Orientation")]
+		global::Windows.Graphics.Display.DisplayOrientations get_Orientation();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Orientation")]
+		void put_Orientation(global::Windows.Graphics.Display.DisplayOrientations value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Height")]
+		int get_Height();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelFormat")]
+		global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat get_PixelFormat();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Width")]
+		int get_Width();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGraphicsToolsStatic
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		int GetBitsPerPixel(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat format);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		ushort GetNativeColor(
+					global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat format, 
+					byte red, 
+					byte green, 
+					byte blue);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		ushort GetNativeColor(
+					global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat format, 
+					global::Windows.UI.Color color);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		bool IsAspectChanging(
+					global::Windows.Graphics.Display.DisplayOrientations oldOrientation, 
+					global::Windows.Graphics.Display.DisplayOrientations newOrientation);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGraphicsToolsClass
+	{
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum DisplayPixelFormat
+	{
+		Unknown = 0,
+		OneBit = 1,
+		Rgb444 = 2,
+		Rgb565 = 5,
+		Rgb666 = 6,
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Input
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Input.IRotaryEncoderRotatedEventArgsClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Input.RotaryEncoderRotatedEventArgs,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=" +
+		"neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class RotaryEncoderRotatedEventArgs : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.IRotaryEncoderRotatedEventArgsClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public RotaryEncoderRotatedEventArgs(global::Microsoft.IoT.DeviceCore.RotationDirection direction)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Direction")]
+		public global::Microsoft.IoT.DeviceCore.RotationDirection get_Direction()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.RotationDirection);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Input.IThumbstickReadingClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Input.ThumbstickReading,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, Pub" +
+		"licKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ThumbstickReading : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.IThumbstickReadingClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ThumbstickReading(
+					double xAxis, 
+					double yAxis, 
+					bool isPressed)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsPressed")]
+		public bool get_IsPressed()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "XAxis")]
+		public double get_XAxis()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "YAxis")]
+		public double get_YAxis()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Input.IThumbstickReadingChangedEventArgsClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Input.ThumbstickReadingChangedEventArgs,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Cult" +
+		"ure=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ThumbstickReadingChangedEventArgs : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.IThumbstickReadingChangedEventArgsClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ThumbstickReadingChangedEventArgs(global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading reading)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Reading")]
+		public global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading get_Reading()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRotaryEncoderRotatedEventArgsFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateRotaryEncoderRotatedEventArgs(global::Microsoft.IoT.DeviceCore.RotationDirection direction);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRotaryEncoderRotatedEventArgsClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Direction")]
+		global::Microsoft.IoT.DeviceCore.RotationDirection get_Direction();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IThumbstickReadingFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateThumbstickReading(
+					double xAxis, 
+					double yAxis, 
+					bool isPressed);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IThumbstickReadingClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsPressed")]
+		bool get_IsPressed();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "XAxis")]
+		double get_XAxis();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "YAxis")]
+		double get_YAxis();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IThumbstickReadingChangedEventArgsFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateThumbstickReadingChangedEventArgs(global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading reading);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IThumbstickReadingChangedEventArgsClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Reading")]
+		global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading get_Reading();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPushButton : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClickMode")]
+		global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode get_ClickMode();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClickMode")]
+		void put_ClickMode(global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsPressed")]
+		bool get_IsPressed();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Click")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Click(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Click")]
+		void remove_Click(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Pressed")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Pressed(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Pressed")]
+		void remove_Pressed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Released")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Released(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Released")]
+		void remove_Released(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRotaryEncoder : global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Rotated")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Rotated(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IRotaryEncoder, global::Microsoft.IoT.DeviceCore.Input.RotaryEncoderRotatedEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Rotated")]
+		void remove_Rotated(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISwitch : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsOn")]
+		bool get_IsOn();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Switched")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Switched(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.ISwitch, bool> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Switched")]
+		void remove_Switched(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IThumbstick : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading GetCurrentReading();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "ReadingChanged")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ReadingChanged(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IThumbstick, global::Microsoft.IoT.DeviceCore.Input.ThumbstickReadingChangedEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "ReadingChanged")]
+		void remove_ReadingChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IThumbstickReadingChangedEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading get_Reading();
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum ButtonClickMode
+	{
+		Release = 0,
+		Press = 1,
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Lights
+{
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ILight
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BrightnessLevel")]
+		float get_BrightnessLevel();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BrightnessLevel")]
+		void put_BrightnessLevel(float value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Color")]
+		global::Windows.UI.Color get_Color();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Color")]
+		void put_Color(global::Windows.UI.Color value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsColorSettable")]
+		bool get_IsColorSettable();
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Microsoft_IoT_DeviceCore_XamlTypeInfo
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Microsoft_IoT_DeviceCore_XamlTypeInfo.XamlMetaDataProvider,Microsoft.IoT.DeviceCore, Ve" +
+		"rsion=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class XamlMetaDataProvider : global::System.__ComObject, global::Windows.UI.Xaml.Markup.IXamlMetadataProvider, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public XamlMetaDataProvider()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.UI.Xaml.Markup.IXamlType);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.UI.Xaml.Markup.IXamlType);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.UI.Xaml.Markup.XmlnsDefinition[]);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Pwm
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Pwm.IPwmProviderManagerClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Pwm.PwmProviderManager,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, Publ" +
+		"icKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class PwmProviderManager : global::System.__ComObject, global::Windows.Devices.Pwm.Provider.IPwmProvider, global::System.IDisposable, global::Microsoft.IoT.DeviceCore.Pwm.IPwmProviderManagerClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public PwmProviderManager()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Devices.Pwm.Provider.IPwmProvider.GetControllers")]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.Provider.IPwmControllerProvider> global::Windows.Devices.Pwm.Provider.IPwmProvider.GetControllers()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.Provider.IPwmControllerProvider>);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Providers")]
+		public global::System.Collections.Generic.IList<global::Windows.Devices.Pwm.Provider.IPwmControllerProvider> get_Providers()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Collections.Generic.IList<global::Windows.Devices.Pwm.Provider.IPwmControllerProvider>);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> GetControllersAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>>);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPwmProviderManagerClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Providers")]
+		global::System.Collections.Generic.IList<global::Windows.Devices.Pwm.Provider.IPwmControllerProvider> get_Providers();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> GetControllersAsync();
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Sensors
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensorReadingClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading,Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral," +
+		" PublicKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class AnalogSensorReading : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensorReadingClass, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public AnalogSensorReading(
+					int val, 
+					double ratio)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Ratio")]
+		public double get_Ratio()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Value")]
+		public double get_Value()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensorReadingChangedEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReadingChangedEventArgs,Microsoft.IoT.DeviceCore, Version=1.0.0.0, " +
+		"Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class AnalogSensorReadingChangedEventArgs : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensorReadingChangedEventArgs, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public AnalogSensorReadingChangedEventArgs(global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading reading)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Reading")]
+		public global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading get_Reading()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAnalogSensorReadingFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateAnalogSensorReading(
+					int val, 
+					double ratio);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAnalogSensorReadingClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Ratio")]
+		double get_Ratio();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Value")]
+		double get_Value();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAnalogSensorReadingChangedEventArgsFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateAnalogSensorReadingChangedEventArgs(global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading reading);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAnalogSensorReadingChangedEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Reading")]
+		global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading get_Reading();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAnalogSensor : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading GetCurrentReading();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "ReadingChanged")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ReadingChanged(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensor, global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReadingChangedEventArgs> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "ReadingChanged")]
+		void remove_ReadingChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value);
+	}
+}
+
+namespace Microsoft.IoT.DeviceCore.Spi
+{
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.DeviceCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISpiBasedDevice : global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		int get_ChipSelectLine();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		void put_ChipSelectLine(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		string get_ControllerName();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		void put_ControllerName(string value);
+	}
+}
+
+namespace Microsoft.IoT.Devices.Adc
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Adc.IADC0832Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Adc.ADC0832,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, " +
+		"ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ADC0832 : global::System.__ComObject, global::Windows.Devices.Adc.Provider.IAdcControllerProvider, global::System.IDisposable, global::Microsoft.IoT.Devices.Adc.IADC0832Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ADC0832()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void AcquireChannel(int channel)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public int ReadValue(int channelNumber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void ReleaseChannel(int channel)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public bool IsChannelModeSupported(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode channelMode)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelCount")]
+		public int get_ChannelCount()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelMode")]
+		public global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode get_ChannelMode()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChannelMode")]
+		public void put_ChannelMode(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxValue")]
+		public int get_MaxValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinValue")]
+		public int get_MinValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResolutionInBits")]
+		public int get_ResolutionInBits()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ChipSelectPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClockPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ClockPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DataPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_DataPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectPin")]
+		public void put_ChipSelectPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockPin")]
+		public void put_ClockPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataPin")]
+		public void put_DataPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Adc.IMCP3008Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Adc.MCP3008,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, " +
+		"ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class MCP3008 : global::System.__ComObject, global::Windows.Devices.Adc.Provider.IAdcControllerProvider, global::System.IDisposable, global::Microsoft.IoT.Devices.Adc.IMCP3008Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public MCP3008()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void AcquireChannel(int channel)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public int ReadValue(int channelNumber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void ReleaseChannel(int channel)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public bool IsChannelModeSupported(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode channelMode)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelCount")]
+		public int get_ChannelCount()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelMode")]
+		public global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode get_ChannelMode()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChannelMode")]
+		public void put_ChannelMode(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxValue")]
+		public int get_MaxValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinValue")]
+		public int get_MinValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResolutionInBits")]
+		public int get_ResolutionInBits()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		public int get_ChipSelectLine()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		public string get_ControllerName()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		public void put_ChipSelectLine(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		public void put_ControllerName(string value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Adc.IMCP3208Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Adc.MCP3208,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, " +
+		"ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class MCP3208 : global::System.__ComObject, global::Windows.Devices.Adc.Provider.IAdcControllerProvider, global::System.IDisposable, global::Microsoft.IoT.Devices.Adc.IMCP3208Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public MCP3208()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void AcquireChannel(int channel)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public int ReadValue(int channelNumber)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void ReleaseChannel(int channel)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public bool IsChannelModeSupported(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode channelMode)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelCount")]
+		public int get_ChannelCount()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelMode")]
+		public global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode get_ChannelMode()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChannelMode")]
+		public void put_ChannelMode(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxValue")]
+		public int get_MaxValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinValue")]
+		public int get_MinValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResolutionInBits")]
+		public int get_ResolutionInBits()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		public int get_ChipSelectLine()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		public string get_ControllerName()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		public void put_ChipSelectLine(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		public void put_ControllerName(string value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IADC0832Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ChipSelectPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClockPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ClockPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DataPin")]
+		global::Windows.Devices.Gpio.GpioPin get_DataPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectPin")]
+		void put_ChipSelectPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockPin")]
+		void put_ClockPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataPin")]
+		void put_DataPin(global::Windows.Devices.Gpio.GpioPin value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IMCP3008Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		int get_ChipSelectLine();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		string get_ControllerName();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		void put_ChipSelectLine(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		void put_ControllerName(string value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IMCP3208Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		int get_ChipSelectLine();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		string get_ControllerName();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		void put_ChipSelectLine(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		void put_ControllerName(string value);
+	}
+}
+
+namespace Microsoft.IoT.Devices.Display
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Display.IADA938Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Display.ADA938,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nul" +
+		"l, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ADA938 : global::System.__ComObject, global::Microsoft.IoT.Devices.Display.IADA938Class, global::Windows.Foundation.IStringable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ADA938()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Display.ISSD1306Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Display.SSD1306,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
+		"ll, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class SSD1306 : global::System.__ComObject, global::System.IDisposable, global::Microsoft.IoT.DeviceCore.Spi.ISpiBasedDevice, global::Microsoft.IoT.DeviceCore.IDevice, global::Microsoft.IoT.Devices.Display.ISSD1306Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public SSD1306()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		public int get_ChipSelectLine()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		public void put_ChipSelectLine(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		public string get_ControllerName()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		public void put_ControllerName(string value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction ClearAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction FlipAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AddressMode")]
+		public global::Microsoft.IoT.Devices.Display.SSD1306AddressMode get_AddressMode()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.Devices.Display.SSD1306AddressMode);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DataPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_DataPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Height")]
+		public int get_Height()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelFormat")]
+		public global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat get_PixelFormat()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelsPerPage")]
+		public int get_PixelsPerPage()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResetPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ResetPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Width")]
+		public int get_Width()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction MirrorAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AddressMode")]
+		public void put_AddressMode(global::Microsoft.IoT.Devices.Display.SSD1306AddressMode value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataPin")]
+		public void put_DataPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Height")]
+		public void put_Height(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PixelFormat")]
+		public void put_PixelFormat(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PixelsPerPage")]
+		public void put_PixelsPerPage(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ResetPin")]
+		public void put_ResetPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Width")]
+		public void put_Width(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction ResetAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction UpdateAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction WritePixelAsync(
+					int x, 
+					int y, 
+					global::Windows.UI.Color color)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Display.IST7735Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Display.ST7735,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nul" +
+		"l, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ST7735 : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Display.IGraphicsDisplay, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable, global::Microsoft.IoT.Devices.Display.IST7735Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public ST7735()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Clear()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void DrawPixel(
+					int x, 
+					int y, 
+					global::Windows.UI.Color color)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void DrawPixel(
+					int x, 
+					int y, 
+					byte red, 
+					byte green, 
+					byte blue)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public bool IsOrientationSupported(global::Windows.Graphics.Display.DisplayOrientations orientation)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Update()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AutoUpdate")]
+		public bool get_AutoUpdate()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AutoUpdate")]
+		public void put_AutoUpdate(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Height")]
+		public int get_Height()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Orientation")]
+		public global::Windows.Graphics.Display.DisplayOrientations get_Orientation()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Graphics.Display.DisplayOrientations);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Orientation")]
+		public void put_Orientation(global::Windows.Graphics.Display.DisplayOrientations value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelFormat")]
+		public global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat get_PixelFormat()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Width")]
+		public int get_Width()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		public int get_ChipSelectLine()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClockFrequency")]
+		public int get_ClockFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		public string get_ControllerName()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DataCommandPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_DataCommandPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DisplayType")]
+		public global::Microsoft.IoT.Devices.Display.ST7735DisplayType get_DisplayType()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.Devices.Display.ST7735DisplayType);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResetPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ResetPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction InitializeAsync()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Foundation.IAsyncAction);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		public void put_ChipSelectLine(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockFrequency")]
+		public void put_ClockFrequency(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		public void put_ControllerName(string value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataCommandPin")]
+		public void put_DataCommandPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DisplayType")]
+		public void put_DisplayType(global::Microsoft.IoT.Devices.Display.ST7735DisplayType value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void put_Height(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void put_PixelFormat(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ResetPin")]
+		public void put_ResetPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void put_Width(int value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IADA938Class
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISSD1306Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction ClearAsync();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction FlipAsync();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AddressMode")]
+		global::Microsoft.IoT.Devices.Display.SSD1306AddressMode get_AddressMode();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DataPin")]
+		global::Windows.Devices.Gpio.GpioPin get_DataPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Height")]
+		int get_Height();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelFormat")]
+		global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat get_PixelFormat();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelsPerPage")]
+		int get_PixelsPerPage();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResetPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ResetPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Width")]
+		int get_Width();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction MirrorAsync();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AddressMode")]
+		void put_AddressMode(global::Microsoft.IoT.Devices.Display.SSD1306AddressMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataPin")]
+		void put_DataPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Height")]
+		void put_Height(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PixelFormat")]
+		void put_PixelFormat(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PixelsPerPage")]
+		void put_PixelsPerPage(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ResetPin")]
+		void put_ResetPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Width")]
+		void put_Width(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction ResetAsync();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction UpdateAsync();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction WritePixelAsync(
+					int x, 
+					int y, 
+					global::Windows.UI.Color color);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IST7735Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChipSelectLine")]
+		int get_ChipSelectLine();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClockFrequency")]
+		int get_ClockFrequency();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		string get_ControllerName();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DataCommandPin")]
+		global::Windows.Devices.Gpio.GpioPin get_DataCommandPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DisplayType")]
+		global::Microsoft.IoT.Devices.Display.ST7735DisplayType get_DisplayType();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResetPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ResetPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction InitializeAsync();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChipSelectLine")]
+		void put_ChipSelectLine(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockFrequency")]
+		void put_ClockFrequency(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		void put_ControllerName(string value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataCommandPin")]
+		void put_DataCommandPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DisplayType")]
+		void put_DisplayType(global::Microsoft.IoT.Devices.Display.ST7735DisplayType value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Height")]
+		void put_Height(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PixelFormat")]
+		void put_PixelFormat(global::Microsoft.IoT.DeviceCore.Display.DisplayPixelFormat value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ResetPin")]
+		void put_ResetPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Width")]
+		void put_Width(int value);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum SSD1306AddressMode : uint
+	{
+		Horizontal = 0x0u,
+		Vertical = 0x1u,
+		Page = 0x10u,
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum ST7735DisplayType
+	{
+		B = 0,
+		R = 1,
+		RBlack = 2,
+		RGreen = 3,
+		RGreen144 = 4,
+		RRed = 5,
+	}
+}
+
+namespace Microsoft.IoT.Devices.Input
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Input.IPushButtonClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Input.PushButton,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=n" +
+		"ull, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class PushButton : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable, global::Microsoft.IoT.Devices.Input.IPushButtonClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public PushButton()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClickMode")]
+		public global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode get_ClickMode()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClickMode")]
+		public void put_ClickMode(global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsPressed")]
+		public bool get_IsPressed()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Click")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Click(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Click")]
+		public void remove_Click(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Pressed")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Pressed(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Pressed")]
+		public void remove_Pressed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Released")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Released(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Released")]
+		public void remove_Released(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DebounceTimeout")]
+		public double get_DebounceTimeout()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Pin")]
+		public global::Windows.Devices.Gpio.GpioPin get_Pin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PressedValue")]
+		public global::Windows.Devices.Gpio.GpioPinValue get_PressedValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPinValue);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UsePullResistors")]
+		public bool get_UsePullResistors()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		public void put_DebounceTimeout(double value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Pin")]
+		public void put_Pin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PressedValue")]
+		public void put_PressedValue(global::Windows.Devices.Gpio.GpioPinValue value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UsePullResistors")]
+		public void put_UsePullResistors(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Input.IRotaryEncoderClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Input.RotaryEncoder,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToke" +
+		"n=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class RotaryEncoder : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.IRotaryEncoder, global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable, global::Microsoft.IoT.Devices.Input.IRotaryEncoderClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public RotaryEncoder()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClickMode")]
+		public global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode get_ClickMode()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClickMode")]
+		public void put_ClickMode(global::Microsoft.IoT.DeviceCore.Input.ButtonClickMode value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsPressed")]
+		public bool get_IsPressed()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Click")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Click(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Click")]
+		public void remove_Click(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Pressed")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Pressed(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Pressed")]
+		public void remove_Pressed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Released")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Released(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IPushButton, global::Microsoft.IoT.DeviceCore.EmptyEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Released")]
+		public void remove_Released(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Rotated")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Rotated(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IRotaryEncoder, global::Microsoft.IoT.DeviceCore.Input.RotaryEncoderRotatedEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Rotated")]
+		public void remove_Rotated(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ButtonPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ButtonPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClockPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ClockPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DebounceTimeout")]
+		public double get_DebounceTimeout()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DirectionPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_DirectionPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PressedValue")]
+		public global::Windows.Devices.Gpio.GpioPinValue get_PressedValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPinValue);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UsePullResistors")]
+		public bool get_UsePullResistors()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ButtonPin")]
+		public void put_ButtonPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockPin")]
+		public void put_ClockPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		public void put_DebounceTimeout(double value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DirectionPin")]
+		public void put_DirectionPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PressedValue")]
+		public void put_PressedValue(global::Windows.Devices.Gpio.GpioPinValue value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UsePullResistors")]
+		public void put_UsePullResistors(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Input.ISwitchClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Input.Switch,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null," +
+		" ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class Switch : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.ISwitch, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable, global::Microsoft.IoT.Devices.Input.ISwitchClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public Switch()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsOn")]
+		public bool get_IsOn()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Switched")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Switched(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.ISwitch, bool> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Switched")]
+		public void remove_Switched(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DebounceTimeout")]
+		public double get_DebounceTimeout()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "OnValue")]
+		public global::Windows.Devices.Gpio.GpioPinValue get_OnValue()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPinValue);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Pin")]
+		public global::Windows.Devices.Gpio.GpioPin get_Pin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UsePullResistors")]
+		public bool get_UsePullResistors()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		public void put_DebounceTimeout(double value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "OnValue")]
+		public void put_OnValue(global::Windows.Devices.Gpio.GpioPinValue value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Pin")]
+		public void put_Pin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UsePullResistors")]
+		public void put_UsePullResistors(bool value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Input.ISS944Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Input.SS944,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, " +
+		"ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class SS944 : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Input.IThumbstick, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable, global::Microsoft.IoT.DeviceCore.IScheduledDevice, global::Microsoft.IoT.Devices.Input.ISS944Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public SS944()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading GetCurrentReading()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Input.ThumbstickReading);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ReportInterval")]
+		public uint get_ReportInterval()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ReportInterval")]
+		public void put_ReportInterval(uint value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "ReadingChanged")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ReadingChanged(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Input.IThumbstick, global::Microsoft.IoT.DeviceCore.Input.ThumbstickReadingChangedEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "ReadingChanged")]
+		public void remove_ReadingChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ButtonPin")]
+		public global::Windows.Devices.Gpio.GpioPin get_ButtonPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Gpio.GpioPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "XChannel")]
+		public global::Windows.Devices.Adc.AdcChannel get_XChannel()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Adc.AdcChannel);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "YChannel")]
+		public global::Windows.Devices.Adc.AdcChannel get_YChannel()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Adc.AdcChannel);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ButtonPin")]
+		public void put_ButtonPin(global::Windows.Devices.Gpio.GpioPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "XChannel")]
+		public void put_XChannel(global::Windows.Devices.Adc.AdcChannel value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "YChannel")]
+		public void put_YChannel(global::Windows.Devices.Adc.AdcChannel value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPushButtonClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DebounceTimeout")]
+		double get_DebounceTimeout();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Pin")]
+		global::Windows.Devices.Gpio.GpioPin get_Pin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PressedValue")]
+		global::Windows.Devices.Gpio.GpioPinValue get_PressedValue();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UsePullResistors")]
+		bool get_UsePullResistors();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		void put_DebounceTimeout(double value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Pin")]
+		void put_Pin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PressedValue")]
+		void put_PressedValue(global::Windows.Devices.Gpio.GpioPinValue value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UsePullResistors")]
+		void put_UsePullResistors(bool value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRotaryEncoderClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ButtonPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ButtonPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ClockPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ClockPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DebounceTimeout")]
+		double get_DebounceTimeout();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DirectionPin")]
+		global::Windows.Devices.Gpio.GpioPin get_DirectionPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PressedValue")]
+		global::Windows.Devices.Gpio.GpioPinValue get_PressedValue();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UsePullResistors")]
+		bool get_UsePullResistors();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ButtonPin")]
+		void put_ButtonPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockPin")]
+		void put_ClockPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		void put_DebounceTimeout(double value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DirectionPin")]
+		void put_DirectionPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PressedValue")]
+		void put_PressedValue(global::Windows.Devices.Gpio.GpioPinValue value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UsePullResistors")]
+		void put_UsePullResistors(bool value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISwitchClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "DebounceTimeout")]
+		double get_DebounceTimeout();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "OnValue")]
+		global::Windows.Devices.Gpio.GpioPinValue get_OnValue();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Pin")]
+		global::Windows.Devices.Gpio.GpioPin get_Pin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "UsePullResistors")]
+		bool get_UsePullResistors();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		void put_DebounceTimeout(double value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "OnValue")]
+		void put_OnValue(global::Windows.Devices.Gpio.GpioPinValue value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Pin")]
+		void put_Pin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "UsePullResistors")]
+		void put_UsePullResistors(bool value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISS944Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ButtonPin")]
+		global::Windows.Devices.Gpio.GpioPin get_ButtonPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "XChannel")]
+		global::Windows.Devices.Adc.AdcChannel get_XChannel();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "YChannel")]
+		global::Windows.Devices.Adc.AdcChannel get_YChannel();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ButtonPin")]
+		void put_ButtonPin(global::Windows.Devices.Gpio.GpioPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "XChannel")]
+		void put_XChannel(global::Windows.Devices.Adc.AdcChannel value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "YChannel")]
+		void put_YChannel(global::Windows.Devices.Adc.AdcChannel value);
+	}
+}
+
+namespace Microsoft.IoT.Devices.Lights
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Lights.IRgbLedClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Lights.RgbLed,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" +
+		", ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class RgbLed : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Lights.ILight, global::System.IDisposable, global::Microsoft.IoT.Devices.Lights.IRgbLedClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public RgbLed()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BrightnessLevel")]
+		public float get_BrightnessLevel()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BrightnessLevel")]
+		public void put_BrightnessLevel(float value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Color")]
+		public global::Windows.UI.Color get_Color()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.UI.Color);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Color")]
+		public void put_Color(global::Windows.UI.Color value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsColorSettable")]
+		public bool get_IsColorSettable()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(bool);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BluePin")]
+		public global::Windows.Devices.Pwm.PwmPin get_BluePin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Pwm.PwmPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "GreenPin")]
+		public global::Windows.Devices.Pwm.PwmPin get_GreenPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Pwm.PwmPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "RedPin")]
+		public global::Windows.Devices.Pwm.PwmPin get_RedPin()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Pwm.PwmPin);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BluePin")]
+		public void put_BluePin(global::Windows.Devices.Pwm.PwmPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "GreenPin")]
+		public void put_GreenPin(global::Windows.Devices.Pwm.PwmPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RedPin")]
+		public void put_RedPin(global::Windows.Devices.Pwm.PwmPin value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRgbLedClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BluePin")]
+		global::Windows.Devices.Pwm.PwmPin get_BluePin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "GreenPin")]
+		global::Windows.Devices.Pwm.PwmPin get_GreenPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "RedPin")]
+		global::Windows.Devices.Pwm.PwmPin get_RedPin();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BluePin")]
+		void put_BluePin(global::Windows.Devices.Pwm.PwmPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "GreenPin")]
+		void put_GreenPin(global::Windows.Devices.Pwm.PwmPin value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RedPin")]
+		void put_RedPin(global::Windows.Devices.Pwm.PwmPin value);
+	}
+}
+
+namespace Microsoft.IoT.Devices.Pwm
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Pwm.IPCA9685Class))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Pwm.PCA9685,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, " +
+		"ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class PCA9685 : global::System.__ComObject, global::Windows.Devices.Pwm.Provider.IPwmControllerProvider, global::System.IDisposable, global::Microsoft.IoT.Devices.Pwm.IPCA9685Class, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public PCA9685()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void AcquirePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void DisablePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void EnablePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void ReleasePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public double SetDesiredFrequency(double frequency)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void SetPulseParameters(
+					int pin, 
+					double dutyCycle, 
+					bool invertPolarity)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ActualFrequency")]
+		public double get_ActualFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxFrequency")]
+		public double get_MaxFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinFrequency")]
+		public double get_MinFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PinCount")]
+		public int get_PinCount()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		public string get_ControllerName()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		public void put_ControllerName(string value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Pwm.Provider.IPwmControllerProvider))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Pwm.SoftPwm,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, " +
+		"ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class SoftPwm : global::System.__ComObject, global::Windows.Devices.Pwm.Provider.IPwmControllerProvider, global::System.IDisposable, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public SoftPwm()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void AcquirePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void DisablePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void EnablePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void ReleasePin(int pin)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public double SetDesiredFrequency(double frequency)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void SetPulseParameters(
+					int pin, 
+					double dutyCycle, 
+					bool invertPolarity)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ActualFrequency")]
+		public double get_ActualFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxFrequency")]
+		public double get_MaxFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinFrequency")]
+		public double get_MinFrequency()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PinCount")]
+		public int get_PinCount()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPCA9685Class
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ControllerName")]
+		string get_ControllerName();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ControllerName")]
+		void put_ControllerName(string value);
+	}
+}
+
+namespace Microsoft.IoT.Devices.Sensors
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.IoT.Devices.Sensors.IAnalogSensorClass))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(16777216)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.IoT.Devices.Sensors.AnalogSensor,Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyTok" +
+		"en=null, ContentType=WindowsRuntime")]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class AnalogSensor : global::System.__ComObject, global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensor, global::Microsoft.IoT.DeviceCore.IDevice, global::System.IDisposable, global::Microsoft.IoT.DeviceCore.IScheduledDevice, global::Microsoft.IoT.Devices.Sensors.IAnalogSensorClass, global::Windows.Foundation.IStringable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public AnalogSensor()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading GetCurrentReading()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReading);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ReportInterval")]
+		public uint get_ReportInterval()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return 0;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ReportInterval")]
+		public void put_ReportInterval(uint value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "ReadingChanged")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ReadingChanged(global::Windows.Foundation.TypedEventHandler<global::Microsoft.IoT.DeviceCore.Sensors.IAnalogSensor, global::Microsoft.IoT.DeviceCore.Sensors.AnalogSensorReadingChangedEventArgs> value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "ReadingChanged")]
+		public void remove_ReadingChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AdcChannel")]
+		public global::Windows.Devices.Adc.AdcChannel get_AdcChannel()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(global::Windows.Devices.Adc.AdcChannel);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AdcChannel")]
+		public void put_AdcChannel(global::Windows.Devices.Adc.AdcChannel value)
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgMethodName("Windows.Foundation.IStringable.ToString")]
+		string global::Windows.Foundation.IStringable.ToString()
+		{
+			global::McgInterop.McgHelpers.FailFastForReducedMethod();
+			return default(string);
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.IoT.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAnalogSensorClass
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AdcChannel")]
+		global::Windows.Devices.Adc.AdcChannel get_AdcChannel();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "AdcChannel")]
+		void put_AdcChannel(global::Windows.Devices.Adc.AdcChannel value);
+	}
+}
+
 namespace System.Net.Http
 {
 	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Http.IHttpBaseProtocolFilter2,System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5" +
@@ -3263,6 +7374,82 @@ namespace Windows.ApplicationModel.Core
 	}
 }
 
+namespace Windows.ApplicationModel.Resources
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Resources.IResourceLoader))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ResourceLoader : global::System.__ComObject, global::Windows.ApplicationModel.Resources.IResourceLoader, global::Windows.ApplicationModel.Resources.IResourceLoader2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public string GetString(string resource)
+		{
+			string __retVal = global::Windows.ApplicationModel.Resources.IResourceLoader__Impl.StubClass.GetString(
+								this, 
+								resource
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.ApplicationModel.Resources.ResourceLoader GetForCurrentView(string name)
+		{
+			global::Windows.ApplicationModel.Resources.ResourceLoader retval;
+			retval = __Factory_Windows_ApplicationModel_Resources__IResourceLoaderStatics2_GetForCurrentView(
+								"Windows.ApplicationModel.Resources.ResourceLoader", 
+								name
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.ApplicationModel.Resources.ResourceLoader __Factory_Windows_ApplicationModel_Resources__IResourceLoaderStatics2_GetForCurrentView(
+					string typeName, 
+					string name)
+		{
+			global::Windows.ApplicationModel.Resources.ResourceLoader __pRetVal;
+			__pRetVal = global::Windows.ApplicationModel.Resources.IResourceLoaderStatics2__Impl.StubClass.GetForCurrentView(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.ApplicationModel.Resources.IResourceLoaderStatics2).TypeHandle
+												), 
+								name
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public ResourceLoader(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IResourceLoaderStatics2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.ApplicationModel.Resources.ResourceLoader GetForCurrentView(string name);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IResourceLoader
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		string GetString(string resource);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IResourceLoader2
+	{
+	}
+}
+
 namespace Windows.ApplicationModel.Resources.Core
 {
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.ApplicationModel.Resources.Core.IResourceMap))]
@@ -4328,6 +8515,303 @@ namespace Windows.Data.Json
 	}
 }
 
+namespace Windows.Devices
+{
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe struct DevicesLowLevelContract
+	{
+	}
+}
+
+namespace Windows.Devices.Adc
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Adc.IAdcController))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class AdcController : global::System.__ComObject, global::Windows.Devices.Adc.IAdcController
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> GetControllersAsync(global::Windows.Devices.Adc.Provider.IAdcProvider provider)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> retval;
+			retval = __Factory_Windows_Devices_Adc__IAdcControllerStatics_GetControllersAsync(
+								"Windows.Devices.Adc.AdcController", 
+								provider
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> __Factory_Windows_Devices_Adc__IAdcControllerStatics_GetControllersAsync(
+					string typeName, 
+					global::Windows.Devices.Adc.Provider.IAdcProvider provider)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> __pRetVal;
+			__pRetVal = global::Windows.Devices.Adc.IAdcControllerStatics__Impl.StubClass.GetControllersAsync(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.Adc.IAdcControllerStatics).TypeHandle
+												), 
+								provider
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public AdcController(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Adc.IAdcChannel))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.IDisposable))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class AdcChannel : global::System.__ComObject, global::Windows.Devices.Adc.IAdcChannel, global::System.IDisposable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public int ReadValue()
+		{
+			int __retVal = global::Windows.Devices.Adc.IAdcChannel__Impl.StubClass.ReadValue(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public double ReadRatio()
+		{
+			double __retVal = global::Windows.Devices.Adc.IAdcChannel__Impl.StubClass.ReadRatio(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public AdcChannel(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAdcControllerStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.AdcController>> GetControllersAsync(global::Windows.Devices.Adc.Provider.IAdcProvider provider);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAdcController
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAdcChannel : global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		int ReadValue();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		double ReadRatio();
+	}
+}
+
+namespace Windows.Devices.Adc.Provider
+{
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAdcProvider
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Adc.Provider.IAdcControllerProvider> GetControllers();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IAdcControllerProvider
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelCount")]
+		int get_ChannelCount();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ResolutionInBits")]
+		int get_ResolutionInBits();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinValue")]
+		int get_MinValue();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxValue")]
+		int get_MaxValue();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ChannelMode")]
+		global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode get_ChannelMode();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ChannelMode")]
+		void put_ChannelMode(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		bool IsChannelModeSupported(global::Windows.Devices.Adc.Provider.ProviderAdcChannelMode channelMode);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void AcquireChannel(int channel);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void ReleaseChannel(int channel);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		int ReadValue(int channelNumber);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum ProviderAdcChannelMode
+	{
+		SingleEnded = 0,
+		Differential = 1,
+	}
+}
+
+namespace Windows.Devices.Enumeration
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Enumeration.DeviceInformation>))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Devices.Enumeration.DeviceInformation>))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class DeviceInformationCollection : global::System.__ComObject, global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Enumeration.DeviceInformation>, global::System.Collections.Generic.IReadOnlyCollection<global::Windows.Devices.Enumeration.DeviceInformation>, global::System.Collections.Generic.IEnumerable<global::Windows.Devices.Enumeration.DeviceInformation>
+	{
+		global::System.Collections.Generic.IEnumerator<global::Windows.Devices.Enumeration.DeviceInformation> global::System.Collections.Generic.IEnumerable<global::Windows.Devices.Enumeration.DeviceInformation>.GetEnumerator()
+		{
+			return (global::System.Collections.Generic.IEnumerator<global::Windows.Devices.Enumeration.DeviceInformation>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+								this, 
+								typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Devices.Enumeration.DeviceInformation>).TypeHandle
+							);
+		}
+
+		global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+		{
+			return global::McgInterop.McgHelpers.GetNonGenericEnumerator(
+								this, 
+								typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Devices.Enumeration.DeviceInformation>).TypeHandle
+							);
+		}
+
+		int global::System.Collections.Generic.IReadOnlyCollection<global::Windows.Devices.Enumeration.DeviceInformation>.Count
+		{
+			get
+			{
+				return global::McgInterop.McgHelpers.GetReadOnlyCollectionCount(
+									this, 
+									typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Enumeration.DeviceInformation>).TypeHandle
+								);
+			}
+		}
+
+		global::Windows.Devices.Enumeration.DeviceInformation global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Enumeration.DeviceInformation>.this[int index]
+		{
+			get
+			{
+				return global::System.Runtime.InteropServices.McgMarshal.FastCast<global::System.Runtime.InteropServices.WindowsRuntime.IReadOnlyListAdapter<global::Windows.Devices.Enumeration.DeviceInformation>>(global::System.Runtime.InteropServices.McgModuleManager.GetDynamicAdapter(
+										this, 
+										typeof(global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Enumeration.DeviceInformation>).TypeHandle
+									))[index];
+			}
+		}
+
+		public DeviceInformationCollection(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Enumeration.IDeviceInformation))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class DeviceInformation : global::System.__ComObject, global::Windows.Devices.Enumeration.IDeviceInformation, global::Windows.Devices.Enumeration.IDeviceInformation2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Id")]
+		public string get_Id()
+		{
+			string __retVal = global::Windows.Devices.Enumeration.IDeviceInformation__Impl.StubClass.get_Id(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Enumeration.DeviceInformationCollection> FindAllAsync(string aqsFilter)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Enumeration.DeviceInformationCollection> retval;
+			retval = __Factory_Windows_Devices_Enumeration__IDeviceInformationStatics_FindAllAsync(
+								"Windows.Devices.Enumeration.DeviceInformation", 
+								aqsFilter
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Enumeration.DeviceInformationCollection> __Factory_Windows_Devices_Enumeration__IDeviceInformationStatics_FindAllAsync(
+					string typeName, 
+					string aqsFilter)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Enumeration.DeviceInformationCollection> __pRetVal;
+			__pRetVal = global::Windows.Devices.Enumeration.IDeviceInformationStatics__Impl.StubClass.FindAllAsync(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.Enumeration.IDeviceInformationStatics).TypeHandle
+												), 
+								aqsFilter
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public DeviceInformation(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDeviceInformationStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Enumeration.DeviceInformationCollection> FindAllAsync(string aqsFilter);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDeviceInformation
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Id")]
+		string get_Id();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDeviceInformation2
+	{
+	}
+}
+
 namespace Windows.Devices.Enumeration.Pnp
 {
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Enumeration.Pnp.IPnpObject))]
@@ -4471,6 +8955,946 @@ namespace Windows.Devices.Enumeration.Pnp
 		AssociationEndpoint = 5,
 		AssociationEndpointContainer = 6,
 		AssociationEndpointService = 7,
+	}
+}
+
+namespace Windows.Devices.Gpio
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Gpio.IGpioPin))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.IDisposable))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class GpioPin : global::System.__ComObject, global::Windows.Devices.Gpio.IGpioPin, global::System.IDisposable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "ValueChanged")]
+		public global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ValueChanged(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Gpio.GpioPin, global::Windows.Devices.Gpio.GpioPinValueChangedEventArgs> handler)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.add_ValueChanged(
+								this, 
+								handler
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "ValueChanged")]
+		public void remove_ValueChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.remove_ValueChanged(
+								this, 
+								token
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		public void put_DebounceTimeout(global::System.TimeSpan value)
+		{
+			global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.put_DebounceTimeout(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public bool IsDriveModeSupported(global::Windows.Devices.Gpio.GpioPinDriveMode driveMode)
+		{
+			bool __retVal = global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.IsDriveModeSupported(
+								this, 
+								driveMode
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void SetDriveMode(global::Windows.Devices.Gpio.GpioPinDriveMode value)
+		{
+			global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.SetDriveMode(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Write(global::Windows.Devices.Gpio.GpioPinValue value)
+		{
+			global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.Write(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Devices.Gpio.GpioPinValue Read()
+		{
+			global::Windows.Devices.Gpio.GpioPinValue __retVal = global::Windows.Devices.Gpio.IGpioPin__Impl.StubClass.Read(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public GpioPin(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Gpio.IGpioPinValueChangedEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class GpioPinValueChangedEventArgs : global::System.__ComObject, global::Windows.Devices.Gpio.IGpioPinValueChangedEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Edge")]
+		public global::Windows.Devices.Gpio.GpioPinEdge get_Edge()
+		{
+			global::Windows.Devices.Gpio.GpioPinEdge __retVal = global::Windows.Devices.Gpio.IGpioPinValueChangedEventArgs__Impl.StubClass.get_Edge(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public GpioPinValueChangedEventArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Gpio.IGpioController))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class GpioController : global::System.__ComObject, global::Windows.Devices.Gpio.IGpioController
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PinCount")]
+		public int get_PinCount()
+		{
+			int __retVal = global::Windows.Devices.Gpio.IGpioController__Impl.StubClass.get_PinCount(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Devices.Gpio.GpioPin OpenPin(int pinNumber)
+		{
+			global::Windows.Devices.Gpio.GpioPin __retVal = global::Windows.Devices.Gpio.IGpioController__Impl.StubClass.OpenPin(
+								this, 
+								pinNumber
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Devices.Gpio.GpioController GetDefault()
+		{
+			global::Windows.Devices.Gpio.GpioController retval;
+			retval = __Factory_Windows_Devices_Gpio__IGpioControllerStatics_GetDefault("Windows.Devices.Gpio.GpioController");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Devices.Gpio.GpioController __Factory_Windows_Devices_Gpio__IGpioControllerStatics_GetDefault(string typeName)
+		{
+			global::Windows.Devices.Gpio.GpioController __pRetVal;
+			__pRetVal = global::Windows.Devices.Gpio.IGpioControllerStatics__Impl.StubClass.GetDefault(global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+									typeName, 
+									typeof(global::Windows.Devices.Gpio.IGpioControllerStatics).TypeHandle
+								));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public GpioController(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGpioPin : global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "ValueChanged")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ValueChanged(global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Gpio.GpioPin, global::Windows.Devices.Gpio.GpioPinValueChangedEventArgs> handler);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "ValueChanged")]
+		void remove_ValueChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DebounceTimeout")]
+		void put_DebounceTimeout(global::System.TimeSpan value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		bool IsDriveModeSupported(global::Windows.Devices.Gpio.GpioPinDriveMode driveMode);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetDriveMode(global::Windows.Devices.Gpio.GpioPinDriveMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Write(global::Windows.Devices.Gpio.GpioPinValue value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Devices.Gpio.GpioPinValue Read();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGpioPinValueChangedEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Edge")]
+		global::Windows.Devices.Gpio.GpioPinEdge get_Edge();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGpioControllerStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Devices.Gpio.GpioController GetDefault();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IGpioController
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PinCount")]
+		int get_PinCount();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Devices.Gpio.GpioPin OpenPin(int pinNumber);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum GpioPinEdge
+	{
+		FallingEdge = 0,
+		RisingEdge = 1,
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum GpioPinDriveMode
+	{
+		Input = 0,
+		Output = 1,
+		InputPullUp = 2,
+		InputPullDown = 3,
+		OutputOpenDrain = 4,
+		OutputOpenDrainPullUp = 5,
+		OutputOpenSource = 6,
+		OutputOpenSourcePullDown = 7,
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum GpioPinValue
+	{
+		Low = 0,
+		High = 1,
+	}
+}
+
+namespace Windows.Devices.I2c
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.I2c.II2cConnectionSettings))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class I2cConnectionSettings : global::System.__ComObject, global::Windows.Devices.I2c.II2cConnectionSettings
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public I2cConnectionSettings(int slaveAddress)
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_Devices_I2c__II2cConnectionSettingsFactory_Create(
+								"Windows.Devices.I2c.I2cConnectionSettings", 
+								slaveAddress
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr __Factory_Windows_Devices_I2c__II2cConnectionSettingsFactory_Create(
+					string typeName, 
+					int slaveAddress)
+		{
+			global::System.IntPtr __pRetVal;
+			__pRetVal = global::Windows.Devices.I2c.II2cConnectionSettingsFactory__Impl.StubClass.Create(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.I2c.II2cConnectionSettingsFactory).TypeHandle
+												), 
+								slaveAddress
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::McgInterop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal);
+			return __pRetVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "SlaveAddress")]
+		public void put_SlaveAddress(int value)
+		{
+			global::Windows.Devices.I2c.II2cConnectionSettings__Impl.StubClass.put_SlaveAddress(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BusSpeed")]
+		public void put_BusSpeed(global::Windows.Devices.I2c.I2cBusSpeed value)
+		{
+			global::Windows.Devices.I2c.II2cConnectionSettings__Impl.StubClass.put_BusSpeed(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "SharingMode")]
+		public void put_SharingMode(global::Windows.Devices.I2c.I2cSharingMode value)
+		{
+			global::Windows.Devices.I2c.II2cConnectionSettings__Impl.StubClass.put_SharingMode(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public I2cConnectionSettings(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.I2c.II2cDevice))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.IDisposable))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class I2cDevice : global::System.__ComObject, global::Windows.Devices.I2c.II2cDevice, global::System.IDisposable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Write(byte[] buffer)
+		{
+			global::Windows.Devices.I2c.II2cDevice__Impl.StubClass.Write(
+								this, 
+								buffer
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Read(byte[] buffer)
+		{
+			global::Windows.Devices.I2c.II2cDevice__Impl.StubClass.Read(
+								this, 
+								buffer
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void WriteRead(
+					byte[] writeBuffer, 
+					byte[] readBuffer)
+		{
+			global::Windows.Devices.I2c.II2cDevice__Impl.StubClass.WriteRead(
+								this, 
+								writeBuffer, 
+								readBuffer
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static string GetDeviceSelector(string friendlyName)
+		{
+			string retval;
+			retval = __Factory_Windows_Devices_I2c__II2cDeviceStatics_GetDeviceSelector(
+								"Windows.Devices.I2c.I2cDevice", 
+								friendlyName
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static string __Factory_Windows_Devices_I2c__II2cDeviceStatics_GetDeviceSelector(
+					string typeName, 
+					string friendlyName)
+		{
+			string __pRetVal;
+			__pRetVal = global::Windows.Devices.I2c.II2cDeviceStatics__Impl.StubClass.GetDeviceSelector(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.I2c.II2cDeviceStatics).TypeHandle
+												), 
+								friendlyName
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.I2c.I2cDevice> FromIdAsync(
+					string deviceId, 
+					global::Windows.Devices.I2c.I2cConnectionSettings settings)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.I2c.I2cDevice> retval;
+			retval = __Factory_Windows_Devices_I2c__II2cDeviceStatics_FromIdAsync(
+								"Windows.Devices.I2c.I2cDevice", 
+								deviceId, 
+								settings
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.I2c.I2cDevice> __Factory_Windows_Devices_I2c__II2cDeviceStatics_FromIdAsync(
+					string typeName, 
+					string deviceId, 
+					global::Windows.Devices.I2c.I2cConnectionSettings settings)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.I2c.I2cDevice> __pRetVal;
+			__pRetVal = global::Windows.Devices.I2c.II2cDeviceStatics__Impl.StubClass.FromIdAsync(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.I2c.II2cDeviceStatics).TypeHandle
+												), 
+								deviceId, 
+								settings
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public I2cDevice(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface II2cConnectionSettingsFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr Create(int slaveAddress);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface II2cConnectionSettings
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "SlaveAddress")]
+		void put_SlaveAddress(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BusSpeed")]
+		void put_BusSpeed(global::Windows.Devices.I2c.I2cBusSpeed value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "SharingMode")]
+		void put_SharingMode(global::Windows.Devices.I2c.I2cSharingMode value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface II2cDeviceStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		string GetDeviceSelector(string friendlyName);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.I2c.I2cDevice> FromIdAsync(
+					string deviceId, 
+					global::Windows.Devices.I2c.I2cConnectionSettings settings);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface II2cDevice : global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Write(byte[] buffer);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Read(byte[] buffer);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void WriteRead(
+					byte[] writeBuffer, 
+					byte[] readBuffer);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum I2cBusSpeed
+	{
+		StandardMode = 0,
+		FastMode = 1,
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum I2cSharingMode
+	{
+		Exclusive = 0,
+		Shared = 1,
+	}
+}
+
+namespace Windows.Devices.Pwm
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Pwm.IPwmController))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class PwmController : global::System.__ComObject, global::Windows.Devices.Pwm.IPwmController
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> GetControllersAsync(global::Windows.Devices.Pwm.Provider.IPwmProvider provider)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> retval;
+			retval = __Factory_Windows_Devices_Pwm__IPwmControllerStatics_GetControllersAsync(
+								"Windows.Devices.Pwm.PwmController", 
+								provider
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> __Factory_Windows_Devices_Pwm__IPwmControllerStatics_GetControllersAsync(
+					string typeName, 
+					global::Windows.Devices.Pwm.Provider.IPwmProvider provider)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> __pRetVal;
+			__pRetVal = global::Windows.Devices.Pwm.IPwmControllerStatics__Impl.StubClass.GetControllersAsync(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.Pwm.IPwmControllerStatics).TypeHandle
+												), 
+								provider
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public PwmController(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Pwm.IPwmPin))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.IDisposable))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class PwmPin : global::System.__ComObject, global::Windows.Devices.Pwm.IPwmPin, global::System.IDisposable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void SetActiveDutyCyclePercentage(double dutyCyclePercentage)
+		{
+			global::Windows.Devices.Pwm.IPwmPin__Impl.StubClass.SetActiveDutyCyclePercentage(
+								this, 
+								dutyCyclePercentage
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Start()
+		{
+			global::Windows.Devices.Pwm.IPwmPin__Impl.StubClass.Start(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Stop()
+		{
+			global::Windows.Devices.Pwm.IPwmPin__Impl.StubClass.Stop(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsStarted")]
+		public bool get_IsStarted()
+		{
+			bool __retVal = global::Windows.Devices.Pwm.IPwmPin__Impl.StubClass.get_IsStarted(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public PwmPin(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPwmControllerStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.PwmController>> GetControllersAsync(global::Windows.Devices.Pwm.Provider.IPwmProvider provider);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPwmController
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPwmPin : global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetActiveDutyCyclePercentage(double dutyCyclePercentage);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Start();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Stop();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "IsStarted")]
+		bool get_IsStarted();
+	}
+}
+
+namespace Windows.Devices.Pwm.Provider
+{
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPwmProvider
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Devices.Pwm.Provider.IPwmControllerProvider> GetControllers();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPwmControllerProvider
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PinCount")]
+		int get_PinCount();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ActualFrequency")]
+		double get_ActualFrequency();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		double SetDesiredFrequency(double frequency);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MaxFrequency")]
+		double get_MaxFrequency();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "MinFrequency")]
+		double get_MinFrequency();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void AcquirePin(int pin);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void ReleasePin(int pin);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void EnablePin(int pin);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void DisablePin(int pin);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void SetPulseParameters(
+					int pin, 
+					double dutyCycle, 
+					bool invertPolarity);
+	}
+}
+
+namespace Windows.Devices.Spi
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Spi.ISpiConnectionSettings))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class SpiConnectionSettings : global::System.__ComObject, global::Windows.Devices.Spi.ISpiConnectionSettings
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public SpiConnectionSettings(int chipSelectLine)
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_Devices_Spi__ISpiConnectionSettingsFactory_Create(
+								"Windows.Devices.Spi.SpiConnectionSettings", 
+								chipSelectLine
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr __Factory_Windows_Devices_Spi__ISpiConnectionSettingsFactory_Create(
+					string typeName, 
+					int chipSelectLine)
+		{
+			global::System.IntPtr __pRetVal;
+			__pRetVal = global::Windows.Devices.Spi.ISpiConnectionSettingsFactory__Impl.StubClass.Create(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.Spi.ISpiConnectionSettingsFactory).TypeHandle
+												), 
+								chipSelectLine
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::McgInterop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal);
+			return __pRetVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Mode")]
+		public void put_Mode(global::Windows.Devices.Spi.SpiMode value)
+		{
+			global::Windows.Devices.Spi.ISpiConnectionSettings__Impl.StubClass.put_Mode(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataBitLength")]
+		public void put_DataBitLength(int value)
+		{
+			global::Windows.Devices.Spi.ISpiConnectionSettings__Impl.StubClass.put_DataBitLength(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockFrequency")]
+		public void put_ClockFrequency(int value)
+		{
+			global::Windows.Devices.Spi.ISpiConnectionSettings__Impl.StubClass.put_ClockFrequency(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public SpiConnectionSettings(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Devices.Spi.ISpiDevice))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.IDisposable))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class SpiDevice : global::System.__ComObject, global::Windows.Devices.Spi.ISpiDevice, global::System.IDisposable
+	{
+		public void Dispose()
+		{
+			global::System.IDisposable__Impl.StubClass.Close(this);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void Write(byte[] buffer)
+		{
+			global::Windows.Devices.Spi.ISpiDevice__Impl.StubClass.Write(
+								this, 
+								buffer
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public void TransferFullDuplex(
+					byte[] writeBuffer, 
+					byte[] readBuffer)
+		{
+			global::Windows.Devices.Spi.ISpiDevice__Impl.StubClass.TransferFullDuplex(
+								this, 
+								writeBuffer, 
+								readBuffer
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static string GetDeviceSelector(string friendlyName)
+		{
+			string retval;
+			retval = __Factory_Windows_Devices_Spi__ISpiDeviceStatics_GetDeviceSelector(
+								"Windows.Devices.Spi.SpiDevice", 
+								friendlyName
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static string __Factory_Windows_Devices_Spi__ISpiDeviceStatics_GetDeviceSelector(
+					string typeName, 
+					string friendlyName)
+		{
+			string __pRetVal;
+			__pRetVal = global::Windows.Devices.Spi.ISpiDeviceStatics__Impl.StubClass.GetDeviceSelector(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.Spi.ISpiDeviceStatics).TypeHandle
+												), 
+								friendlyName
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Spi.SpiDevice> FromIdAsync(
+					string busId, 
+					global::Windows.Devices.Spi.SpiConnectionSettings settings)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Spi.SpiDevice> retval;
+			retval = __Factory_Windows_Devices_Spi__ISpiDeviceStatics_FromIdAsync(
+								"Windows.Devices.Spi.SpiDevice", 
+								busId, 
+								settings
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Spi.SpiDevice> __Factory_Windows_Devices_Spi__ISpiDeviceStatics_FromIdAsync(
+					string typeName, 
+					string busId, 
+					global::Windows.Devices.Spi.SpiConnectionSettings settings)
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Spi.SpiDevice> __pRetVal;
+			__pRetVal = global::Windows.Devices.Spi.ISpiDeviceStatics__Impl.StubClass.FromIdAsync(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.Devices.Spi.ISpiDeviceStatics).TypeHandle
+												), 
+								busId, 
+								settings
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public SpiDevice(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISpiConnectionSettingsFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr Create(int chipSelectLine);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISpiConnectionSettings
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Mode")]
+		void put_Mode(global::Windows.Devices.Spi.SpiMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "DataBitLength")]
+		void put_DataBitLength(int value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ClockFrequency")]
+		void put_ClockFrequency(int value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISpiDeviceStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		string GetDeviceSelector(string friendlyName);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Spi.SpiDevice> FromIdAsync(
+					string busId, 
+					global::Windows.Devices.Spi.SpiConnectionSettings settings);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISpiDevice : global::System.IDisposable
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Write(byte[] buffer);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void TransferFullDuplex(
+					byte[] writeBuffer, 
+					byte[] readBuffer);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum SpiMode
+	{
+		Mode0 = 0,
+		Mode1 = 1,
+		Mode2 = 2,
+		Mode3 = 3,
 	}
 }
 
@@ -5359,33 +10783,6 @@ namespace Windows.Foundation.Metadata
 				| global::System.AttributeTargets.Parameter 
 				| global::System.AttributeTargets.Delegate 
 				| global::System.AttributeTargets.ReturnValue 
-				| global::System.AttributeTargets.GenericParameter), AllowMultiple=false)]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class MuseAttribute : global::System.Attribute
-	{
-		public MuseAttribute()
-		{
-			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.MuseAttribute\'.  Windows Runtime attribute types are not cons" +
-					"tructable.");
-		}
-		public uint Version;
-	}
-
-	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
-				| global::System.AttributeTargets.Class 
-				| global::System.AttributeTargets.Struct 
-				| global::System.AttributeTargets.Enum 
-				| global::System.AttributeTargets.Constructor 
-				| global::System.AttributeTargets.Method 
-				| global::System.AttributeTargets.Property 
-				| global::System.AttributeTargets.Field 
-				| global::System.AttributeTargets.Event 
-				| global::System.AttributeTargets.Interface 
-				| global::System.AttributeTargets.Parameter 
-				| global::System.AttributeTargets.Delegate 
-				| global::System.AttributeTargets.ReturnValue 
 				| global::System.AttributeTargets.GenericParameter), AllowMultiple=true)]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -5420,6 +10817,33 @@ namespace Windows.Foundation.Metadata
 			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.ComposableAttribute\'.  Windows Runtime attribute types are no" +
 					"t constructable.");
 		}
+	}
+
+	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
+				| global::System.AttributeTargets.Class 
+				| global::System.AttributeTargets.Struct 
+				| global::System.AttributeTargets.Enum 
+				| global::System.AttributeTargets.Constructor 
+				| global::System.AttributeTargets.Method 
+				| global::System.AttributeTargets.Property 
+				| global::System.AttributeTargets.Field 
+				| global::System.AttributeTargets.Event 
+				| global::System.AttributeTargets.Interface 
+				| global::System.AttributeTargets.Parameter 
+				| global::System.AttributeTargets.Delegate 
+				| global::System.AttributeTargets.ReturnValue 
+				| global::System.AttributeTargets.GenericParameter), AllowMultiple=false)]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class MuseAttribute : global::System.Attribute
+	{
+		public MuseAttribute()
+		{
+			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.MuseAttribute\'.  Windows Runtime attribute types are not cons" +
+					"tructable.");
+		}
+		public uint Version;
 	}
 
 	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
@@ -5566,6 +10990,34 @@ namespace Windows.Foundation.Metadata
 				| global::System.AttributeTargets.Parameter 
 				| global::System.AttributeTargets.Delegate 
 				| global::System.AttributeTargets.ReturnValue 
+				| global::System.AttributeTargets.GenericParameter), AllowMultiple=false)]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class RangeAttribute : global::System.Attribute
+	{
+		public RangeAttribute(
+					int minValue, 
+					int maxValue)
+		{
+			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.RangeAttribute\'.  Windows Runtime attribute types are not con" +
+					"structable.");
+		}
+	}
+
+	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
+				| global::System.AttributeTargets.Class 
+				| global::System.AttributeTargets.Struct 
+				| global::System.AttributeTargets.Enum 
+				| global::System.AttributeTargets.Constructor 
+				| global::System.AttributeTargets.Method 
+				| global::System.AttributeTargets.Property 
+				| global::System.AttributeTargets.Field 
+				| global::System.AttributeTargets.Event 
+				| global::System.AttributeTargets.Interface 
+				| global::System.AttributeTargets.Parameter 
+				| global::System.AttributeTargets.Delegate 
+				| global::System.AttributeTargets.ReturnValue 
 				| global::System.AttributeTargets.GenericParameter), AllowMultiple=true)]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -5599,34 +11051,6 @@ namespace Windows.Foundation.Metadata
 		{
 			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.DeprecatedAttribute\'.  Windows Runtime attribute types are no" +
 					"t constructable.");
-		}
-	}
-
-	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
-				| global::System.AttributeTargets.Class 
-				| global::System.AttributeTargets.Struct 
-				| global::System.AttributeTargets.Enum 
-				| global::System.AttributeTargets.Constructor 
-				| global::System.AttributeTargets.Method 
-				| global::System.AttributeTargets.Property 
-				| global::System.AttributeTargets.Field 
-				| global::System.AttributeTargets.Event 
-				| global::System.AttributeTargets.Interface 
-				| global::System.AttributeTargets.Parameter 
-				| global::System.AttributeTargets.Delegate 
-				| global::System.AttributeTargets.ReturnValue 
-				| global::System.AttributeTargets.GenericParameter), AllowMultiple=false)]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class RangeAttribute : global::System.Attribute
-	{
-		public RangeAttribute(
-					int minValue, 
-					int maxValue)
-		{
-			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.RangeAttribute\'.  Windows Runtime attribute types are not con" +
-					"structable.");
 		}
 	}
 
@@ -11252,8 +16676,115 @@ namespace Windows.System.Threading
 	}
 }
 
+namespace Windows.UI
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.IColors))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class Colors : global::System.__ComObject, global::Windows.UI.IColors
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Black")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.UI.Color get_Black()
+		{
+			global::Windows.UI.Color retval;
+			retval = __Factory_Windows_UI__IColorsStatics_get_Black("Windows.UI.Colors");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.UI.Color __Factory_Windows_UI__IColorsStatics_get_Black(string typeName)
+		{
+			global::Windows.UI.Color __pRetVal;
+			__pRetVal = global::Windows.UI.IColorsStatics__Impl.StubClass.get_Black(global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+									typeName, 
+									typeof(global::Windows.UI.IColorsStatics).TypeHandle
+								));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		public Colors(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IColorsStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Black")]
+		global::Windows.UI.Color get_Black();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IColors
+	{
+	}
+}
+
 namespace Windows.UI.Core
 {
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Core.ICoreDispatcher))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class CoreDispatcher : global::System.__ComObject, global::Windows.UI.Core.ICoreDispatcher, global::Windows.UI.Core.ICoreAcceleratorKeys, global::Windows.UI.Core.ICoreDispatcherWithTaskPriority, global::Windows.UI.Core.ICoreDispatcher2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "HasThreadAccess")]
+		public bool get_HasThreadAccess()
+		{
+			bool __retVal = global::Windows.UI.Core.ICoreDispatcher__Impl.StubClass.get_HasThreadAccess(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction RunAsync(
+					global::Windows.UI.Core.CoreDispatcherPriority priority, 
+					global::Windows.UI.Core.DispatchedHandler agileCallback)
+		{
+			global::Windows.Foundation.IAsyncAction __retVal = global::Windows.UI.Core.ICoreDispatcher__Impl.StubClass.RunAsync(
+								this, 
+								priority, 
+								agileCallback
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction RunIdleAsync(global::Windows.UI.Core.IdleDispatchedHandler agileCallback)
+		{
+			global::Windows.Foundation.IAsyncAction __retVal = global::Windows.UI.Core.ICoreDispatcher__Impl.StubClass.RunIdleAsync(
+								this, 
+								agileCallback
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public CoreDispatcher(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Core.IIdleDispatchedHandlerArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class IdleDispatchedHandlerArgs : global::System.__ComObject, global::Windows.UI.Core.IIdleDispatchedHandlerArgs
+	{
+		public IdleDispatchedHandlerArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Core.ICoreWindow))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -11291,40 +16822,6 @@ namespace Windows.UI.Core
 		}
 
 		public CoreWindow(global::System.IntPtr dummy)
-		{
-		}
-	}
-
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Core.ICoreDispatcher))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class CoreDispatcher : global::System.__ComObject, global::Windows.UI.Core.ICoreDispatcher, global::Windows.UI.Core.ICoreAcceleratorKeys, global::Windows.UI.Core.ICoreDispatcherWithTaskPriority, global::Windows.UI.Core.ICoreDispatcher2
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "HasThreadAccess")]
-		public bool get_HasThreadAccess()
-		{
-			bool __retVal = global::Windows.UI.Core.ICoreDispatcher__Impl.StubClass.get_HasThreadAccess(this);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public global::Windows.Foundation.IAsyncAction RunAsync(
-					global::Windows.UI.Core.CoreDispatcherPriority priority, 
-					global::Windows.UI.Core.DispatchedHandler agileCallback)
-		{
-			global::Windows.Foundation.IAsyncAction __retVal = global::Windows.UI.Core.ICoreDispatcher__Impl.StubClass.RunAsync(
-								this, 
-								priority, 
-								agileCallback
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		public CoreDispatcher(global::System.IntPtr dummy)
 		{
 		}
 	}
@@ -11375,23 +16872,6 @@ namespace Windows.UI.Core
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface ICoreWindowStatic
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::Windows.UI.Core.CoreWindow GetForCurrentThread();
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface ICoreWindow
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Dispatcher")]
-		global::Windows.UI.Core.CoreDispatcher get_Dispatcher();
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface ICoreDispatcher : global::Windows.UI.Core.ICoreAcceleratorKeys
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -11402,6 +16882,9 @@ namespace Windows.UI.Core
 		global::Windows.Foundation.IAsyncAction RunAsync(
 					global::Windows.UI.Core.CoreDispatcherPriority priority, 
 					global::Windows.UI.Core.DispatchedHandler agileCallback);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction RunIdleAsync(global::Windows.UI.Core.IdleDispatchedHandler agileCallback);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -11416,6 +16899,16 @@ namespace Windows.UI.Core
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe delegate void IdleDispatchedHandler(global::Windows.UI.Core.IdleDispatchedHandlerArgs e);
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IIdleDispatchedHandlerArgs
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface ICoreDispatcherWithTaskPriority
 	{
 	}
@@ -11424,6 +16917,23 @@ namespace Windows.UI.Core
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface ICoreDispatcher2
 	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ICoreWindowStatic
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.UI.Core.CoreWindow GetForCurrentThread();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ICoreWindow
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Dispatcher")]
+		global::Windows.UI.Core.CoreDispatcher get_Dispatcher();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -11476,433 +16986,21 @@ namespace Windows.UI.Core
 
 namespace Windows.UI.Xaml
 {
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplication))]
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplicationOverrides))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class Application : global::System.__ComObject, global::Windows.UI.Xaml.IApplication, global::Windows.UI.Xaml.IApplicationOverrides
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		public Application()
-		{
-			global::System.IntPtr retval;
-			retval = __Factory_Windows_UI_Xaml__IApplicationFactory_CreateInstance("Windows.UI.Xaml.Application");
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			this.__AttachAndRelease(retval);
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::System.IntPtr __Factory_Windows_UI_Xaml__IApplicationFactory_CreateInstance(string typeName)
-		{
-			global::System.IntPtr innerInspectable;
-			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
-			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
-								this, 
-								typeof(global::Windows.UI.Xaml.Application).TypeHandle
-							))
-			{
-				global::System.IntPtr __pRetVal_NoAggregation;
-				__pRetVal_NoAggregation = global::Windows.UI.Xaml.IApplicationFactory__Impl.StubClass.CreateInstance(
-									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-														typeName, 
-														typeof(global::Windows.UI.Xaml.IApplicationFactory).TypeHandle
-													), 
-									outerInspectable, 
-									out innerInspectable
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
-				global::McgInterop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
-				return __pRetVal_NoAggregation;
-			}
-			else
-			{
-				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
-				global::System.IntPtr __pRetVal_WithAggregation;
-				__pRetVal_WithAggregation = global::Windows.UI.Xaml.IApplicationFactory__Impl.StubClass.CreateInstance(
-									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-														typeName, 
-														typeof(global::Windows.UI.Xaml.IApplicationFactory).TypeHandle
-													), 
-									outerInspectable, 
-									out innerInspectable
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
-				return innerInspectable;
-			}
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "RequestedTheme")]
-		public virtual global::Windows.UI.Xaml.ApplicationTheme get_RequestedTheme()
-		{
-			global::Windows.UI.Xaml.ApplicationTheme __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.get_RequestedTheme(this);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RequestedTheme")]
-		public virtual void put_RequestedTheme(global::Windows.UI.Xaml.ApplicationTheme value)
-		{
-			global::Windows.UI.Xaml.IApplication__Impl.StubClass.put_RequestedTheme(
-								this, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "UnhandledException")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_UnhandledException(global::Windows.UI.Xaml.UnhandledExceptionEventHandler value)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.add_UnhandledException(
-								this, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "UnhandledException")]
-		public virtual void remove_UnhandledException(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.IApplication__Impl.StubClass.remove_UnhandledException(
-								this, 
-								token
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Suspending")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Suspending(global::Windows.UI.Xaml.SuspendingEventHandler value)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.add_Suspending(
-								this, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Suspending")]
-		public virtual void remove_Suspending(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.IApplication__Impl.StubClass.remove_Suspending(
-								this, 
-								token
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Resuming")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Resuming(global::System.EventHandler<object> value)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.add_Resuming(
-								this, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Resuming")]
-		public virtual void remove_Resuming(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.IApplication__Impl.StubClass.remove_Resuming(
-								this, 
-								token
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnActivated(global::Windows.ApplicationModel.Activation.IActivatedEventArgs args)
-		{
-			this.OnActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnActivated(global::Windows.ApplicationModel.Activation.IActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnLaunched(global::Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args)
-		{
-			this.OnLaunched(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnLaunched(global::Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnLaunched(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnFileActivated(global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args)
-		{
-			this.OnFileActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnFileActivated(global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnFileActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnSearchActivated(global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args)
-		{
-			this.OnSearchActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnSearchActivated(global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnSearchActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnShareTargetActivated(global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args)
-		{
-			this.OnShareTargetActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnShareTargetActivated(global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnShareTargetActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnFileOpenPickerActivated(global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args)
-		{
-			this.OnFileOpenPickerActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnFileOpenPickerActivated(global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnFileOpenPickerActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnFileSavePickerActivated(global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args)
-		{
-			this.OnFileSavePickerActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnFileSavePickerActivated(global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnFileSavePickerActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnCachedFileUpdaterActivated(global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args)
-		{
-			this.OnCachedFileUpdaterActivated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnCachedFileUpdaterActivated(global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnCachedFileUpdaterActivated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		void global::Windows.UI.Xaml.IApplicationOverrides.OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args)
-		{
-			this.OnWindowCreated(args);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args)
-		{
-			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnWindowCreated(
-								this, 
-								args
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Current")]
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static global::Windows.UI.Xaml.Application get_Current()
-		{
-			global::Windows.UI.Xaml.Application retval;
-			retval = __Factory_Windows_UI_Xaml__IApplicationStatics_get_Current("Windows.UI.Xaml.Application");
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return retval;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static global::Windows.UI.Xaml.Application __Factory_Windows_UI_Xaml__IApplicationStatics_get_Current(string typeName)
-		{
-			global::Windows.UI.Xaml.Application __pRetVal;
-			__pRetVal = global::Windows.UI.Xaml.IApplicationStatics__Impl.StubClass.get_Current(global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-									typeName, 
-									typeof(global::Windows.UI.Xaml.IApplicationStatics).TypeHandle
-								));
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __pRetVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static void Start(global::Windows.UI.Xaml.ApplicationInitializationCallback callback)
-		{
-			__Factory_Windows_UI_Xaml__IApplicationStatics_Start(
-								"Windows.UI.Xaml.Application", 
-								callback
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static void __Factory_Windows_UI_Xaml__IApplicationStatics_Start(
-					string typeName, 
-					global::Windows.UI.Xaml.ApplicationInitializationCallback callback)
-		{
-			global::Windows.UI.Xaml.IApplicationStatics__Impl.StubClass.Start(
-								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-													typeName, 
-													typeof(global::Windows.UI.Xaml.IApplicationStatics).TypeHandle
-												), 
-								callback
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static void LoadComponent(
-					object component, 
-					global::System.Uri resourceLocator, 
-					global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation)
-		{
-			__Factory_Windows_UI_Xaml__IApplicationStatics_LoadComponent(
-								"Windows.UI.Xaml.Application", 
-								component, 
-								resourceLocator, 
-								componentResourceLocation
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static void __Factory_Windows_UI_Xaml__IApplicationStatics_LoadComponent(
-					string typeName, 
-					object component, 
-					global::System.Uri resourceLocator, 
-					global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation)
-		{
-			global::Windows.UI.Xaml.IApplicationStatics__Impl.StubClass.LoadComponent(
-								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-													typeName, 
-													typeof(global::Windows.UI.Xaml.IApplicationStatics).TypeHandle
-												), 
-								component, 
-								resourceLocator, 
-								componentResourceLocation
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		public Application(global::System.IntPtr dummy)
-		{
-		}
-	}
-
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplicationInitializationCallbackParams))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class ApplicationInitializationCallbackParams : global::System.__ComObject, global::Windows.UI.Xaml.IApplicationInitializationCallbackParams
-	{
-		public ApplicationInitializationCallbackParams(global::System.IntPtr dummy)
-		{
-		}
-	}
-
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IUnhandledExceptionEventArgs))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class UnhandledExceptionEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IUnhandledExceptionEventArgs
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Exception")]
-		public global::System.Exception get_Exception()
-		{
-			global::System.Exception __retVal = global::Windows.UI.Xaml.IUnhandledExceptionEventArgs__Impl.StubClass.get_Exception(this);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		public UnhandledExceptionEventArgs(global::System.IntPtr dummy)
-		{
-		}
-	}
-
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IWindowCreatedEventArgs))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class WindowCreatedEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IWindowCreatedEventArgs
-	{
-		public WindowCreatedEventArgs(global::System.IntPtr dummy)
-		{
-		}
-	}
-
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IDependencyObject))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe class DependencyObject : global::System.__ComObject, global::Windows.UI.Xaml.IDependencyObject, global::Windows.UI.Xaml.IDependencyObject2
 	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Dispatcher")]
+		public virtual global::Windows.UI.Core.CoreDispatcher get_Dispatcher()
+		{
+			global::Windows.UI.Core.CoreDispatcher __retVal = global::Windows.UI.Xaml.IDependencyObject__Impl.StubClass.get_Dispatcher(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
 		public DependencyObject(global::System.IntPtr dummy)
 		{
 		}
@@ -11916,6 +17014,15 @@ namespace Windows.UI.Xaml
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe class UIElement : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.IUIElement, global::Windows.UI.Xaml.IUIElementOverrides, global::Windows.UI.Xaml.IUIElement2, global::Windows.UI.Xaml.IUIElement3
 	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Visibility")]
+		public virtual global::Windows.UI.Xaml.Visibility get_Visibility()
+		{
+			global::Windows.UI.Xaml.Visibility __retVal = global::Windows.UI.Xaml.IUIElement__Impl.StubClass.get_Visibility(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "KeyUp")]
 		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_KeyUp(global::Windows.UI.Xaml.Input.KeyEventHandler value)
@@ -12675,6 +17782,15 @@ namespace Windows.UI.Xaml
 		}
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Name")]
+		public virtual string get_Name()
+		{
+			string __retVal = global::Windows.UI.Xaml.IFrameworkElement__Impl.StubClass.get_Name(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Loaded")]
 		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Loaded(global::Windows.UI.Xaml.RoutedEventHandler value)
 		{
@@ -12916,17 +18032,6 @@ namespace Windows.UI.Xaml
 		}
 	}
 
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IDependencyPropertyChangedEventArgs))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class DependencyPropertyChangedEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IDependencyPropertyChangedEventArgs
-	{
-		public DependencyPropertyChangedEventArgs(global::System.IntPtr dummy)
-		{
-		}
-	}
-
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IFrameworkTemplate))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -12939,6 +18044,17 @@ namespace Windows.UI.Xaml
 		}
 	}
 
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IDependencyPropertyChangedEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class DependencyPropertyChangedEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IDependencyPropertyChangedEventArgs
+	{
+		public DependencyPropertyChangedEventArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IDataTemplate))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -12946,6 +18062,542 @@ namespace Windows.UI.Xaml
 	public unsafe class DataTemplate : global::Windows.UI.Xaml.FrameworkTemplate, global::Windows.UI.Xaml.IDataTemplate
 	{
 		public DataTemplate(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplication))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplicationOverrides))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class Application : global::System.__ComObject, global::Windows.UI.Xaml.IApplication, global::Windows.UI.Xaml.IApplicationOverrides
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public Application()
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml__IApplicationFactory_CreateInstance("Windows.UI.Xaml.Application");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr __Factory_Windows_UI_Xaml__IApplicationFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.Application).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.IApplicationFactory__Impl.StubClass.CreateInstance(
+									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.IApplicationFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::McgInterop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.IApplicationFactory__Impl.StubClass.CreateInstance(
+									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.IApplicationFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "RequestedTheme")]
+		public virtual global::Windows.UI.Xaml.ApplicationTheme get_RequestedTheme()
+		{
+			global::Windows.UI.Xaml.ApplicationTheme __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.get_RequestedTheme(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RequestedTheme")]
+		public virtual void put_RequestedTheme(global::Windows.UI.Xaml.ApplicationTheme value)
+		{
+			global::Windows.UI.Xaml.IApplication__Impl.StubClass.put_RequestedTheme(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "UnhandledException")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_UnhandledException(global::Windows.UI.Xaml.UnhandledExceptionEventHandler value)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.add_UnhandledException(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "UnhandledException")]
+		public virtual void remove_UnhandledException(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.IApplication__Impl.StubClass.remove_UnhandledException(
+								this, 
+								token
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Suspending")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Suspending(global::Windows.UI.Xaml.SuspendingEventHandler value)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.add_Suspending(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Suspending")]
+		public virtual void remove_Suspending(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.IApplication__Impl.StubClass.remove_Suspending(
+								this, 
+								token
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Resuming")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Resuming(global::System.EventHandler<object> value)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.IApplication__Impl.StubClass.add_Resuming(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Resuming")]
+		public virtual void remove_Resuming(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.IApplication__Impl.StubClass.remove_Resuming(
+								this, 
+								token
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnActivated(global::Windows.ApplicationModel.Activation.IActivatedEventArgs args)
+		{
+			this.OnActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnActivated(global::Windows.ApplicationModel.Activation.IActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnLaunched(global::Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args)
+		{
+			this.OnLaunched(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnLaunched(global::Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnLaunched(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnFileActivated(global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args)
+		{
+			this.OnFileActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnFileActivated(global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnFileActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnSearchActivated(global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args)
+		{
+			this.OnSearchActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnSearchActivated(global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnSearchActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnShareTargetActivated(global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args)
+		{
+			this.OnShareTargetActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnShareTargetActivated(global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnShareTargetActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnFileOpenPickerActivated(global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args)
+		{
+			this.OnFileOpenPickerActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnFileOpenPickerActivated(global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnFileOpenPickerActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnFileSavePickerActivated(global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args)
+		{
+			this.OnFileSavePickerActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnFileSavePickerActivated(global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnFileSavePickerActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnCachedFileUpdaterActivated(global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args)
+		{
+			this.OnCachedFileUpdaterActivated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnCachedFileUpdaterActivated(global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnCachedFileUpdaterActivated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.IApplicationOverrides.OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args)
+		{
+			this.OnWindowCreated(args);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args)
+		{
+			global::Windows.UI.Xaml.IApplicationOverrides__Impl.StubClass.OnWindowCreated(
+								this, 
+								args
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Current")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static global::Windows.UI.Xaml.Application get_Current()
+		{
+			global::Windows.UI.Xaml.Application retval;
+			retval = __Factory_Windows_UI_Xaml__IApplicationStatics_get_Current("Windows.UI.Xaml.Application");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return retval;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static global::Windows.UI.Xaml.Application __Factory_Windows_UI_Xaml__IApplicationStatics_get_Current(string typeName)
+		{
+			global::Windows.UI.Xaml.Application __pRetVal;
+			__pRetVal = global::Windows.UI.Xaml.IApplicationStatics__Impl.StubClass.get_Current(global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+									typeName, 
+									typeof(global::Windows.UI.Xaml.IApplicationStatics).TypeHandle
+								));
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __pRetVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void Start(global::Windows.UI.Xaml.ApplicationInitializationCallback callback)
+		{
+			__Factory_Windows_UI_Xaml__IApplicationStatics_Start(
+								"Windows.UI.Xaml.Application", 
+								callback
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static void __Factory_Windows_UI_Xaml__IApplicationStatics_Start(
+					string typeName, 
+					global::Windows.UI.Xaml.ApplicationInitializationCallback callback)
+		{
+			global::Windows.UI.Xaml.IApplicationStatics__Impl.StubClass.Start(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.Xaml.IApplicationStatics).TypeHandle
+												), 
+								callback
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void LoadComponent(
+					object component, 
+					global::System.Uri resourceLocator, 
+					global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation)
+		{
+			__Factory_Windows_UI_Xaml__IApplicationStatics_LoadComponent(
+								"Windows.UI.Xaml.Application", 
+								component, 
+								resourceLocator, 
+								componentResourceLocation
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static void __Factory_Windows_UI_Xaml__IApplicationStatics_LoadComponent(
+					string typeName, 
+					object component, 
+					global::System.Uri resourceLocator, 
+					global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation)
+		{
+			global::Windows.UI.Xaml.IApplicationStatics__Impl.StubClass.LoadComponent(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.Xaml.IApplicationStatics).TypeHandle
+												), 
+								component, 
+								resourceLocator, 
+								componentResourceLocation
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public Application(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplicationInitializationCallbackParams))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ApplicationInitializationCallbackParams : global::System.__ComObject, global::Windows.UI.Xaml.IApplicationInitializationCallbackParams
+	{
+		public ApplicationInitializationCallbackParams(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IUnhandledExceptionEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class UnhandledExceptionEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IUnhandledExceptionEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Exception")]
+		public global::System.Exception get_Exception()
+		{
+			global::System.Exception __retVal = global::Windows.UI.Xaml.IUnhandledExceptionEventArgs__Impl.StubClass.get_Exception(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public UnhandledExceptionEventArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IWindowCreatedEventArgs))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class WindowCreatedEventArgs : global::System.__ComObject, global::Windows.UI.Xaml.IWindowCreatedEventArgs
+	{
+		public WindowCreatedEventArgs(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.ISetterBase))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class SetterBase : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.ISetterBase
+	{
+		public SetterBase(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IDependencyProperty))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class DependencyProperty : global::System.__ComObject, global::Windows.UI.Xaml.IDependencyProperty
+	{
+		public DependencyProperty(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.ISetter))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class Setter : global::Windows.UI.Xaml.SetterBase, global::Windows.UI.Xaml.ISetter, global::Windows.UI.Xaml.ISetter2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public Setter() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = global::System.Runtime.InteropServices.McgModuleManager.ActivateInstance("Windows.UI.Xaml.Setter");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Property")]
+		public global::Windows.UI.Xaml.DependencyProperty get_Property()
+		{
+			global::Windows.UI.Xaml.DependencyProperty __retVal = global::Windows.UI.Xaml.ISetter__Impl.StubClass.get_Property(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Property")]
+		public void put_Property(global::Windows.UI.Xaml.DependencyProperty value)
+		{
+			global::Windows.UI.Xaml.ISetter__Impl.StubClass.put_Property(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Value")]
+		public object get_Value()
+		{
+			object __retVal = global::Windows.UI.Xaml.ISetter__Impl.StubClass.get_Value(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Value")]
+		public void put_Value(object value)
+		{
+			global::Windows.UI.Xaml.ISetter__Impl.StubClass.put_Value(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public Setter(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IResourceDictionary))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<object, object>>))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class ResourceDictionary : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.IResourceDictionary, global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<object, object>>
+	{
+		global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<object, object>> global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<object, object>>.GetEnumerator()
+		{
+			return (global::System.Collections.Generic.IEnumerator<global::System.Collections.Generic.KeyValuePair<object, object>>)global::McgInterop.McgHelpers.GetGenericEnumerator(
+								this, 
+								typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<object, object>>).TypeHandle
+							);
+		}
+
+		global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+		{
+			return global::McgInterop.McgHelpers.GetNonGenericEnumerator(
+								this, 
+								typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<object, object>>).TypeHandle
+							);
+		}
+
+		public ResourceDictionary(global::System.IntPtr dummy) : 
 				base(dummy)
 		{
 		}
@@ -13105,142 +18757,11 @@ namespace Windows.UI.Xaml
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IApplicationFactory
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::System.IntPtr CreateInstance(
-					global::System.IntPtr outer, 
-					out global::System.IntPtr inner);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IApplicationStatics
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Current")]
-		global::Windows.UI.Xaml.Application get_Current();
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void Start(global::Windows.UI.Xaml.ApplicationInitializationCallback callback);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void LoadComponent(
-					object component, 
-					global::System.Uri resourceLocator, 
-					global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe delegate void ApplicationInitializationCallback(global::Windows.UI.Xaml.ApplicationInitializationCallbackParams p);
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IApplicationInitializationCallbackParams
-	{
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IApplication
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "RequestedTheme")]
-		global::Windows.UI.Xaml.ApplicationTheme get_RequestedTheme();
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RequestedTheme")]
-		void put_RequestedTheme(global::Windows.UI.Xaml.ApplicationTheme value);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "UnhandledException")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_UnhandledException(global::Windows.UI.Xaml.UnhandledExceptionEventHandler value);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "UnhandledException")]
-		void remove_UnhandledException(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Suspending")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Suspending(global::Windows.UI.Xaml.SuspendingEventHandler value);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Suspending")]
-		void remove_Suspending(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Resuming")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Resuming(global::System.EventHandler<object> value);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Resuming")]
-		void remove_Resuming(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe delegate void UnhandledExceptionEventHandler(
-				object sender, 
-				global::Windows.UI.Xaml.UnhandledExceptionEventArgs e);
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IUnhandledExceptionEventArgs
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Exception")]
-		global::System.Exception get_Exception();
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe delegate void SuspendingEventHandler(
-				object sender, 
-				global::Windows.ApplicationModel.SuspendingEventArgs e);
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IApplicationOverrides
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnActivated(global::Windows.ApplicationModel.Activation.IActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnLaunched(global::Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnFileActivated(global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnSearchActivated(global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnShareTargetActivated(global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnFileOpenPickerActivated(global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnFileSavePickerActivated(global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnCachedFileUpdaterActivated(global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IWindowCreatedEventArgs
-	{
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IDependencyObject
 	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Dispatcher")]
+		global::Windows.UI.Core.CoreDispatcher get_Dispatcher();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -13253,6 +18774,10 @@ namespace Windows.UI.Xaml
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IUIElement
 	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Visibility")]
+		global::Windows.UI.Xaml.Visibility get_Visibility();
+
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "KeyUp")]
 		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_KeyUp(global::Windows.UI.Xaml.Input.KeyEventHandler value);
@@ -13552,6 +19077,10 @@ namespace Windows.UI.Xaml
 		void put_Margin(global::Windows.UI.Xaml.Thickness value);
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Name")]
+		string get_Name();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Loaded")]
 		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Loaded(global::Windows.UI.Xaml.RoutedEventHandler value);
 
@@ -13654,6 +19183,12 @@ namespace Windows.UI.Xaml
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IFrameworkTemplate
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe delegate void DependencyPropertyChangedEventHandler(
 				object sender, 
 				global::Windows.UI.Xaml.DependencyPropertyChangedEventArgs e);
@@ -13666,13 +19201,186 @@ namespace Windows.UI.Xaml
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IFrameworkTemplate
+	public unsafe interface IDataTemplate
 	{
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IDataTemplate
+	public unsafe interface IApplicationFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr outer, 
+					out global::System.IntPtr inner);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplicationStatics
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Current")]
+		global::Windows.UI.Xaml.Application get_Current();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void Start(global::Windows.UI.Xaml.ApplicationInitializationCallback callback);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void LoadComponent(
+					object component, 
+					global::System.Uri resourceLocator, 
+					global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe delegate void ApplicationInitializationCallback(global::Windows.UI.Xaml.ApplicationInitializationCallbackParams p);
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplicationInitializationCallbackParams
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplication
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "RequestedTheme")]
+		global::Windows.UI.Xaml.ApplicationTheme get_RequestedTheme();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RequestedTheme")]
+		void put_RequestedTheme(global::Windows.UI.Xaml.ApplicationTheme value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "UnhandledException")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_UnhandledException(global::Windows.UI.Xaml.UnhandledExceptionEventHandler value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "UnhandledException")]
+		void remove_UnhandledException(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Suspending")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Suspending(global::Windows.UI.Xaml.SuspendingEventHandler value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Suspending")]
+		void remove_Suspending(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Resuming")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Resuming(global::System.EventHandler<object> value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Resuming")]
+		void remove_Resuming(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe delegate void UnhandledExceptionEventHandler(
+				object sender, 
+				global::Windows.UI.Xaml.UnhandledExceptionEventArgs e);
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IUnhandledExceptionEventArgs
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Exception")]
+		global::System.Exception get_Exception();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe delegate void SuspendingEventHandler(
+				object sender, 
+				global::Windows.ApplicationModel.SuspendingEventArgs e);
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplicationOverrides
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnActivated(global::Windows.ApplicationModel.Activation.IActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnLaunched(global::Windows.ApplicationModel.Activation.LaunchActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnFileActivated(global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnSearchActivated(global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnShareTargetActivated(global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnFileOpenPickerActivated(global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnFileSavePickerActivated(global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnCachedFileUpdaterActivated(global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IWindowCreatedEventArgs
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISetterBase
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDependencyProperty
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISetter
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Property")]
+		global::Windows.UI.Xaml.DependencyProperty get_Property();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Property")]
+		void put_Property(global::Windows.UI.Xaml.DependencyProperty value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Value")]
+		object get_Value();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Value")]
+		void put_Value(object value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISetter2
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IResourceDictionary
 	{
 	}
 
@@ -13761,6 +19469,15 @@ namespace Windows.UI.Xaml
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IWindow2
 	{
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum Visibility
+	{
+		Visible = 0,
+		Collapsed = 1,
 	}
 
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
@@ -14754,11 +20471,63 @@ namespace Windows.UI.Xaml.Controls
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IControl))]
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IControlOverrides))]
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IControlProtected))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe class Control : global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.Controls.IControl, global::Windows.UI.Xaml.Controls.IControlOverrides, global::Windows.UI.Xaml.Controls.IControlProtected, global::Windows.UI.Xaml.Controls.IControl2, global::Windows.UI.Xaml.Controls.IControl3
 	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		protected Control() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml_Controls__IControlFactory_CreateInstance("Windows.UI.Xaml.Controls.Control");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr __Factory_Windows_UI_Xaml_Controls__IControlFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+			global::System.IntPtr __pRetVal_WithAggregation;
+			__pRetVal_WithAggregation = global::Windows.UI.Xaml.Controls.IControlFactory__Impl.StubClass.CreateInstance(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.Xaml.Controls.IControlFactory).TypeHandle
+												), 
+								outerInspectable, 
+								out innerInspectable
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+			global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+			return innerInspectable;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Template")]
+		public virtual global::Windows.UI.Xaml.Controls.ControlTemplate get_Template()
+		{
+			global::Windows.UI.Xaml.Controls.ControlTemplate __retVal = global::Windows.UI.Xaml.Controls.IControl__Impl.StubClass.get_Template(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Template")]
+		public virtual void put_Template(global::Windows.UI.Xaml.Controls.ControlTemplate value)
+		{
+			global::Windows.UI.Xaml.Controls.IControl__Impl.StubClass.put_Template(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "IsEnabledChanged")]
 		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_IsEnabledChanged(global::Windows.UI.Xaml.DependencyPropertyChangedEventHandler value)
@@ -15235,6 +21004,254 @@ namespace Windows.UI.Xaml.Controls
 
 		public Control(global::System.IntPtr dummy) : 
 				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IControlTemplate))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ControlTemplate : global::Windows.UI.Xaml.FrameworkTemplate, global::Windows.UI.Xaml.Controls.IControlTemplate
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public ControlTemplate() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = global::System.Runtime.InteropServices.McgModuleManager.ActivateInstance("Windows.UI.Xaml.Controls.ControlTemplate");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TargetType")]
+		public global::System.Type get_TargetType()
+		{
+			global::System.Type __retVal = global::Windows.UI.Xaml.Controls.IControlTemplate__Impl.StubClass.get_TargetType(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TargetType")]
+		public void put_TargetType(global::System.Type value)
+		{
+			global::Windows.UI.Xaml.Controls.IControlTemplate__Impl.StubClass.put_TargetType(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public ControlTemplate(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentControl))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentControlOverrides))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class ContentControl : global::Windows.UI.Xaml.Controls.Control, global::Windows.UI.Xaml.Controls.IContentControl, global::Windows.UI.Xaml.Controls.IContentControlOverrides, global::Windows.UI.Xaml.Controls.IContentControl2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public ContentControl() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml_Controls__IContentControlFactory_CreateInstance("Windows.UI.Xaml.Controls.ContentControl");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr __Factory_Windows_UI_Xaml_Controls__IContentControlFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.Controls.ContentControl).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Controls.IContentControlFactory__Impl.StubClass.CreateInstance(
+									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Controls.IContentControlFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::McgInterop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Controls.IContentControlFactory__Impl.StubClass.CreateInstance(
+									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Controls.IContentControlFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Content")]
+		public virtual object get_Content()
+		{
+			object __retVal = global::Windows.UI.Xaml.Controls.IContentControl__Impl.StubClass.get_Content(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged(
+					object oldContent, 
+					object newContent)
+		{
+			this.OnContentChanged(
+								oldContent, 
+								newContent
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnContentChanged(
+					object oldContent, 
+					object newContent)
+		{
+			global::Windows.UI.Xaml.Controls.IContentControlOverrides__Impl.StubClass.OnContentChanged(
+								this, 
+								oldContent, 
+								newContent
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentTemplateChanged(
+					global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
+					global::Windows.UI.Xaml.DataTemplate newContentTemplate)
+		{
+			this.OnContentTemplateChanged(
+								oldContentTemplate, 
+								newContentTemplate
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnContentTemplateChanged(
+					global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
+					global::Windows.UI.Xaml.DataTemplate newContentTemplate)
+		{
+			global::Windows.UI.Xaml.Controls.IContentControlOverrides__Impl.StubClass.OnContentTemplateChanged(
+								this, 
+								oldContentTemplate, 
+								newContentTemplate
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentTemplateSelectorChanged(
+					global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
+					global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector)
+		{
+			this.OnContentTemplateSelectorChanged(
+								oldContentTemplateSelector, 
+								newContentTemplateSelector
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual void OnContentTemplateSelectorChanged(
+					global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
+					global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector)
+		{
+			global::Windows.UI.Xaml.Controls.IContentControlOverrides__Impl.StubClass.OnContentTemplateSelectorChanged(
+								this, 
+								oldContentTemplateSelector, 
+								newContentTemplateSelector
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public ContentControl(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelector))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class DataTemplateSelector : global::System.__ComObject, global::Windows.UI.Xaml.Controls.IDataTemplateSelector, global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides, global::Windows.UI.Xaml.Controls.IDataTemplateSelector2, global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2
+	{
+		global::Windows.UI.Xaml.DataTemplate global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore(
+					object item, 
+					global::Windows.UI.Xaml.DependencyObject container)
+		{
+			global::Windows.UI.Xaml.DataTemplate __retVal_1 = this.SelectTemplateCore(
+								item, 
+								container
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal_1;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
+					object item, 
+					global::Windows.UI.Xaml.DependencyObject container)
+		{
+			global::Windows.UI.Xaml.DataTemplate __retVal = global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides__Impl.StubClass.SelectTemplateCore(
+								this, 
+								item, 
+								container
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		global::Windows.UI.Xaml.DataTemplate global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore(object item)
+		{
+			global::Windows.UI.Xaml.DataTemplate __retVal_1 = this.SelectTemplateCore(item);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal_1;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		protected virtual global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(object item)
+		{
+			global::Windows.UI.Xaml.DataTemplate __retVal = global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2__Impl.StubClass.SelectTemplateCore(
+								this, 
+								item
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public DataTemplateSelector(global::System.IntPtr dummy)
 		{
 		}
 	}
@@ -15819,47 +21836,151 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentControl))]
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentControlOverrides))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IViewbox))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class ContentControl : global::Windows.UI.Xaml.Controls.Control, global::Windows.UI.Xaml.Controls.IContentControl, global::Windows.UI.Xaml.Controls.IContentControlOverrides, global::Windows.UI.Xaml.Controls.IContentControl2
+	public unsafe sealed class Viewbox : global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.Controls.IViewbox
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Content")]
-		public virtual object get_Content()
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public Viewbox() : 
+				base(default(global::System.IntPtr))
 		{
-			object __retVal = global::Windows.UI.Xaml.Controls.IContentControl__Impl.StubClass.get_Content(this);
+			global::System.IntPtr retval;
+			retval = global::System.Runtime.InteropServices.McgModuleManager.ActivateInstance("Windows.UI.Xaml.Controls.Viewbox");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Child")]
+		public global::Windows.UI.Xaml.UIElement get_Child()
+		{
+			global::Windows.UI.Xaml.UIElement __retVal = global::Windows.UI.Xaml.Controls.IViewbox__Impl.StubClass.get_Child(this);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			return __retVal;
 		}
 
-		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged(
-					object oldContent, 
-					object newContent)
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Child")]
+		public void put_Child(global::Windows.UI.Xaml.UIElement value)
 		{
-			this.OnContentChanged(
-								oldContent, 
-								newContent
+			global::Windows.UI.Xaml.Controls.IViewbox__Impl.StubClass.put_Child(
+								this, 
+								value
 							);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual void OnContentChanged(
-					object oldContent, 
-					object newContent)
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Stretch")]
+		public global::Windows.UI.Xaml.Media.Stretch get_Stretch()
 		{
-			global::Windows.UI.Xaml.Controls.IContentControlOverrides__Impl.StubClass.OnContentChanged(
+			global::Windows.UI.Xaml.Media.Stretch __retVal = global::Windows.UI.Xaml.Controls.IViewbox__Impl.StubClass.get_Stretch(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Stretch")]
+		public void put_Stretch(global::Windows.UI.Xaml.Media.Stretch value)
+		{
+			global::Windows.UI.Xaml.Controls.IViewbox__Impl.StubClass.put_Stretch(
 								this, 
-								oldContent, 
-								newContent
+								value
 							);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
-		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentTemplateChanged(
+		public Viewbox(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentPresenter))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentPresenterOverrides))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class ContentPresenter : global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.Controls.IContentPresenter, global::Windows.UI.Xaml.Controls.IContentPresenterOverrides, global::Windows.UI.Xaml.Controls.IContentPresenter2, global::Windows.UI.Xaml.Controls.IContentPresenter3, global::Windows.UI.Xaml.Controls.IContentPresenter4
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public ContentPresenter() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml_Controls__IContentPresenterFactory_CreateInstance("Windows.UI.Xaml.Controls.ContentPresenter");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr __Factory_Windows_UI_Xaml_Controls__IContentPresenterFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.Controls.ContentPresenter).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Controls.IContentPresenterFactory__Impl.StubClass.CreateInstance(
+									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Controls.IContentPresenterFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::McgInterop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Controls.IContentPresenterFactory__Impl.StubClass.CreateInstance(
+									global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Controls.IContentPresenterFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Content")]
+		public virtual object get_Content()
+		{
+			object __retVal = global::Windows.UI.Xaml.Controls.IContentPresenter__Impl.StubClass.get_Content(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Content")]
+		public virtual void put_Content(object value)
+		{
+			global::Windows.UI.Xaml.Controls.IContentPresenter__Impl.StubClass.put_Content(
+								this, 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		void global::Windows.UI.Xaml.Controls.IContentPresenterOverrides.OnContentTemplateChanged(
 					global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
 					global::Windows.UI.Xaml.DataTemplate newContentTemplate)
 		{
@@ -15875,7 +21996,7 @@ namespace Windows.UI.Xaml.Controls
 					global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
 					global::Windows.UI.Xaml.DataTemplate newContentTemplate)
 		{
-			global::Windows.UI.Xaml.Controls.IContentControlOverrides__Impl.StubClass.OnContentTemplateChanged(
+			global::Windows.UI.Xaml.Controls.IContentPresenterOverrides__Impl.StubClass.OnContentTemplateChanged(
 								this, 
 								oldContentTemplate, 
 								newContentTemplate
@@ -15883,7 +22004,7 @@ namespace Windows.UI.Xaml.Controls
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
-		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentTemplateSelectorChanged(
+		void global::Windows.UI.Xaml.Controls.IContentPresenterOverrides.OnContentTemplateSelectorChanged(
 					global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
 					global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector)
 		{
@@ -15899,7 +22020,7 @@ namespace Windows.UI.Xaml.Controls
 					global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
 					global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector)
 		{
-			global::Windows.UI.Xaml.Controls.IContentControlOverrides__Impl.StubClass.OnContentTemplateSelectorChanged(
+			global::Windows.UI.Xaml.Controls.IContentPresenterOverrides__Impl.StubClass.OnContentTemplateSelectorChanged(
 								this, 
 								oldContentTemplateSelector, 
 								newContentTemplateSelector
@@ -15907,65 +22028,8 @@ namespace Windows.UI.Xaml.Controls
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 		}
 
-		public ContentControl(global::System.IntPtr dummy) : 
+		public ContentPresenter(global::System.IntPtr dummy) : 
 				base(dummy)
-		{
-		}
-	}
-
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelector))]
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides))]
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class DataTemplateSelector : global::System.__ComObject, global::Windows.UI.Xaml.Controls.IDataTemplateSelector, global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides, global::Windows.UI.Xaml.Controls.IDataTemplateSelector2, global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2
-	{
-		global::Windows.UI.Xaml.DataTemplate global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore(
-					object item, 
-					global::Windows.UI.Xaml.DependencyObject container)
-		{
-			global::Windows.UI.Xaml.DataTemplate __retVal_1 = this.SelectTemplateCore(
-								item, 
-								container
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal_1;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
-					object item, 
-					global::Windows.UI.Xaml.DependencyObject container)
-		{
-			global::Windows.UI.Xaml.DataTemplate __retVal = global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides__Impl.StubClass.SelectTemplateCore(
-								this, 
-								item, 
-								container
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		global::Windows.UI.Xaml.DataTemplate global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore(object item)
-		{
-			global::Windows.UI.Xaml.DataTemplate __retVal_1 = this.SelectTemplateCore(item);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal_1;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		protected virtual global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(object item)
-		{
-			global::Windows.UI.Xaml.DataTemplate __retVal = global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2__Impl.StubClass.SelectTemplateCore(
-								this, 
-								item
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __retVal;
-		}
-
-		public DataTemplateSelector(global::System.IntPtr dummy)
 		{
 		}
 	}
@@ -16144,8 +22208,26 @@ namespace Windows.UI.Xaml.Controls
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IControlFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr outer, 
+					out global::System.IntPtr inner);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IControl
 	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Template")]
+		global::Windows.UI.Xaml.Controls.ControlTemplate get_Template();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Template")]
+		void put_Template(global::Windows.UI.Xaml.Controls.ControlTemplate value);
+
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "IsEnabledChanged")]
 		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_IsEnabledChanged(global::Windows.UI.Xaml.DependencyPropertyChangedEventHandler value);
@@ -16153,6 +22235,19 @@ namespace Windows.UI.Xaml.Controls
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "IsEnabledChanged")]
 		void remove_IsEnabledChanged(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IControlTemplate
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TargetType")]
+		global::System.Type get_TargetType();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TargetType")]
+		void put_TargetType(global::System.Type value);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -16260,6 +22355,81 @@ namespace Windows.UI.Xaml.Controls
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IControl3
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IContentControlFactory
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr outer, 
+					out global::System.IntPtr inner);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IContentControl
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Content")]
+		object get_Content();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IContentControlOverrides
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnContentChanged(
+					object oldContent, 
+					object newContent);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnContentTemplateChanged(
+					global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
+					global::Windows.UI.Xaml.DataTemplate newContentTemplate);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		void OnContentTemplateSelectorChanged(
+					global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
+					global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDataTemplateSelector
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDataTemplateSelectorOverrides
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
+					object item, 
+					global::Windows.UI.Xaml.DependencyObject container);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDataTemplateSelector2
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IDataTemplateSelectorOverrides2
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(object item);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IContentControl2
 	{
 	}
 
@@ -16432,22 +22602,52 @@ namespace Windows.UI.Xaml.Controls
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IContentControl
+	public unsafe interface IViewbox
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Content")]
-		object get_Content();
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Child")]
+		global::Windows.UI.Xaml.UIElement get_Child();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Child")]
+		void put_Child(global::Windows.UI.Xaml.UIElement value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Stretch")]
+		global::Windows.UI.Xaml.Media.Stretch get_Stretch();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Stretch")]
+		void put_Stretch(global::Windows.UI.Xaml.Media.Stretch value);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IContentControlOverrides
+	public unsafe interface IContentPresenterFactory
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void OnContentChanged(
-					object oldContent, 
-					object newContent);
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr outer, 
+					out global::System.IntPtr inner);
+	}
 
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IContentPresenter
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Content")]
+		object get_Content();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Content")]
+		void put_Content(object value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IContentPresenterOverrides
+	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		void OnContentTemplateChanged(
 					global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
@@ -16461,37 +22661,19 @@ namespace Windows.UI.Xaml.Controls
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IDataTemplateSelector
+	public unsafe interface IContentPresenter2
 	{
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IDataTemplateSelectorOverrides
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
-					object item, 
-					global::Windows.UI.Xaml.DependencyObject container);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IDataTemplateSelector2
+	public unsafe interface IContentPresenter3
 	{
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IDataTemplateSelectorOverrides2
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(object item);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IContentControl2
+	public unsafe interface IContentPresenter4
 	{
 	}
 
@@ -16877,20 +23059,6 @@ namespace Windows.UI.Xaml.Markup
 {
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IXamlMetadataProvider
-	{
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(string fullName);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		global::Windows.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions();
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IXamlType
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -17004,6 +23172,20 @@ namespace Windows.UI.Xaml.Markup
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IXamlMetadataProvider
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(string fullName);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IComponentConnector
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -17068,6 +23250,18 @@ namespace Windows.UI.Xaml.Media
 	public unsafe class Brush : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.Media.IBrush
 	{
 		public Brush(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.IImageSource))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class ImageSource : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.Media.IImageSource
+	{
+		public ImageSource(global::System.IntPtr dummy) : 
 				base(dummy)
 		{
 		}
@@ -17155,6 +23349,12 @@ namespace Windows.UI.Xaml.Media
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IImageSource
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IVisualTreeHelperStatics
 	{
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -17170,6 +23370,99 @@ namespace Windows.UI.Xaml.Media
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IVisualTreeHelper
 	{
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum Stretch
+	{
+		None = 0,
+		Fill = 1,
+		Uniform = 2,
+		UniformToFill = 3,
+	}
+}
+
+namespace Windows.UI.Xaml.Media.Imaging
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Imaging.IRenderTargetBitmap))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class RenderTargetBitmap : global::Windows.UI.Xaml.Media.ImageSource, global::Windows.UI.Xaml.Media.Imaging.IRenderTargetBitmap
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public RenderTargetBitmap() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = global::System.Runtime.InteropServices.McgModuleManager.ActivateInstance("Windows.UI.Xaml.Media.Imaging.RenderTargetBitmap");
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelWidth")]
+		public int get_PixelWidth()
+		{
+			int __retVal = global::Windows.UI.Xaml.Media.Imaging.IRenderTargetBitmap__Impl.StubClass.get_PixelWidth(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelHeight")]
+		public int get_PixelHeight()
+		{
+			int __retVal = global::Windows.UI.Xaml.Media.Imaging.IRenderTargetBitmap__Impl.StubClass.get_PixelHeight(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncAction RenderAsync(global::Windows.UI.Xaml.UIElement element)
+		{
+			global::Windows.Foundation.IAsyncAction __retVal = global::Windows.UI.Xaml.Media.Imaging.IRenderTargetBitmap__Impl.StubClass.RenderAsync(
+								this, 
+								element
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IBuffer> GetPixelsAsync()
+		{
+			global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IBuffer> __retVal = global::Windows.UI.Xaml.Media.Imaging.IRenderTargetBitmap__Impl.StubClass.GetPixelsAsync(this);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			return __retVal;
+		}
+
+		public RenderTargetBitmap(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IRenderTargetBitmap
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelWidth")]
+		int get_PixelWidth();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "PixelHeight")]
+		int get_PixelHeight();
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncAction RenderAsync(global::Windows.UI.Xaml.UIElement element);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IBuffer> GetPixelsAsync();
 	}
 }
 

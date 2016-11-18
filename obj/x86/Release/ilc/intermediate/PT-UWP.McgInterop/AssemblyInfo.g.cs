@@ -8,7 +8,9 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 
 [assembly: global::System.Runtime.InteropServices.McgGeneratedAssembly]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("Microsoft.IoT.DeviceCore")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("Microsoft.Azure.Devices.Client")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("Microsoft.IoT.Devices")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Runtime.WindowsRuntime")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Net.Http")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Text.Encoding.CodePages")]

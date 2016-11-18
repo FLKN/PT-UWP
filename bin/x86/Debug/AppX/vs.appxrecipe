@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bcabf126-4756-494b-846d-fb0b60f071f3</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\silve\Desktop\PT-UWP\PT-UWP\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>86A20490295120F3698CD85D7A9B5ADD4251041A235EDF0D28763731C1C0C8B0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>339B4CAF546B2B053C8484BD41ED0F70685E68FB71368AEEAFD6A8032BEA18D5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>bcabf126-4756-494b-846d-fb0b60f071f3_1.0.0.0_x86__rhtsk2z6bknnc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bcabf126-4756-494b-846d-fb0b60f071f3_rhtsk2z6bknnc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>bcabf126-4756-494b-846d-fb0b60f071f3</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-28T01:50:54.867</Modified>
+      <Modified>2016-11-18T03:27:36.406</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Debug\PT-UWP.exe">
       <PackagePath>entrypoint\PT-UWP.exe</PackagePath>
-      <Modified>2016-10-28T01:50:52.931</Modified>
+      <Modified>2016-11-18T03:27:34.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -57,6 +57,10 @@
     <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
       <Modified>2015-07-23T04:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.IoT.DeviceHelpers\1.0.4\lib\uap10.0\Microsoft.IoT.DeviceHelpers.dll">
+      <PackagePath>Microsoft.IoT.DeviceHelpers.dll</PackagePath>
+      <Modified>2016-02-19T20:58:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
@@ -490,6 +494,14 @@
       <PackagePath>Microsoft.Azure.Devices.Client.winmd</PackagePath>
       <Modified>2016-10-20T18:22:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.IoT.DeviceCore\1.0.3\lib\uap10.0\Microsoft.IoT.DeviceCore.winmd">
+      <PackagePath>Microsoft.IoT.DeviceCore.winmd</PackagePath>
+      <Modified>2015-08-28T02:56:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.IoT.Devices\1.0.6\lib\uap10.0\Microsoft.IoT.Devices.winmd">
+      <PackagePath>Microsoft.IoT.Devices.winmd</PackagePath>
+      <Modified>2016-02-19T21:05:32.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-10-27T01:45:28.188</Modified>
@@ -534,19 +546,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Debug\PT-UWP.xr.xml">
       <PackagePath>PT-UWP.xr.xml</PackagePath>
-      <Modified>2016-10-28T01:50:52.285</Modified>
+      <Modified>2016-11-17T05:54:07.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-05-01T13:50:12.764</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.IoT.DeviceCore\1.0.3\lib\uap10.0\Microsoft.IoT.DeviceCore\Microsoft.IoT.DeviceCore.xr.xml">
+      <PackagePath>Microsoft.IoT.DeviceCore\Microsoft.IoT.DeviceCore.xr.xml</PackagePath>
+      <Modified>2015-08-28T02:56:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.IoT.DeviceCore\1.0.3\lib\uap10.0\Microsoft.IoT.DeviceCore\Themes\Generic.xaml">
+      <PackagePath>Microsoft.IoT.DeviceCore\Themes\Generic.xaml</PackagePath>
+      <Modified>2015-08-28T02:56:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\.nuget\packages\Microsoft.IoT.DeviceHelpers\1.0.4\lib\uap10.0\Microsoft.IoT.DeviceHelpers\Properties\Microsoft.IoT.DeviceHelpers.rd.xml">
+      <PackagePath>Microsoft.IoT.DeviceHelpers\Properties\Microsoft.IoT.DeviceHelpers.rd.xml</PackagePath>
+      <Modified>2016-02-19T20:58:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-10-28T01:50:54.055</Modified>
+      <Modified>2016-11-17T05:54:22.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Debug\Core\PT-UWP.exe">
       <PackagePath>PT-UWP.exe</PackagePath>
-      <Modified>2016-10-28T01:50:54.856</Modified>
+      <Modified>2016-11-18T03:27:36.380</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

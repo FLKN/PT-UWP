@@ -1,0 +1,5 @@
+System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  System.Net.Http.Properties.CommonWebApiResources.resources
+  System.Net.Http.Properties.Resources.resources
+Validation, Version=2.2.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7
+  Validation.Strings.resources

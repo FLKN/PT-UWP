@@ -3,6 +3,7 @@ using System;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+
 using Windows.UI.Xaml.Controls;
 
 namespace PT_UWP
@@ -12,7 +13,6 @@ namespace PT_UWP
     /// </summary>
     public sealed partial class MainPage : Page
     {
-
         public MainPage()
         {
             this.InitializeComponent();
@@ -26,7 +26,6 @@ namespace PT_UWP
             try
             {
                 DeviceClient deviceClient = DeviceClient.CreateFromConnectionString(DeviceConnectionString, TransportType.Http1);
-                //await SendEvent(deviceClient);
                 await ReceiveCommands(deviceClient);
             }
             catch (Exception ex)
@@ -35,16 +34,7 @@ namespace PT_UWP
             }
         }
 
-        async Task SendEvent(DeviceClient deviceClient)
-        {
-            string dataBuffer;
-            //for (int count = 0; count < MESSAGE_COUNT; count++)
-            //{
-            dataBuffer = "Hello Iot";
-            Message eventMessage = new Message(Encoding.UTF8.GetBytes(dataBuffer));
-            await deviceClient.SendEventAsync(eventMessage);
-            // }
-        }
+       
 
         async Task ReceiveCommands(DeviceClient deviceClient)
         {
@@ -57,7 +47,10 @@ namespace PT_UWP
                 {
                     messageData = Encoding.ASCII.GetString(receivedMessage.GetBytes());
                     txtblkMessages.Text = messageData + "\n" + txtblkMessages.Text;
+                    
                     await deviceClient.CompleteAsync(receivedMessage);
+                    var msg = new Message(Encoding.UTF8.GetBytes("{'clave':'valor'}"));
+                    await deviceClient.SendEventAsync(msg);
                 }
 
                 await Task.Delay(TimeSpan.FromSeconds(1));

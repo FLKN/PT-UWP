@@ -3,9 +3,9 @@
     "Microsoft.ApplicationInsights": "1.0.0",
     "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
     "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-    "Microsoft.Azure.Devices": "1.0.16",
-    "Microsoft.Azure.Devices.Client": "1.0.21",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+    "Microsoft.Azure.Devices": "1.1.0",
+    "Microsoft.Azure.Devices.Client": "1.0.22",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2"
   },
   "frameworks": {
     "uap10.0": {}

@@ -54,6 +54,15 @@
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Release\ilc\Microsoft.Azure.Devices.Client.winmd">
       <PackagePath>Microsoft.Azure.Devices.Client.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Release\ilc\Microsoft.IoT.DeviceCore.winmd">
+      <PackagePath>Microsoft.IoT.DeviceCore.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Release\ilc\Microsoft.IoT.DeviceCore\Themes\Generic.xaml">
+      <PackagePath>Microsoft.IoT.DeviceCore\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Release\ilc\Microsoft.IoT.Devices.winmd">
+      <PackagePath>Microsoft.IoT.Devices.winmd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\silve\Desktop\PT-UWP\PT-UWP\bin\x86\Release\ilc\PT-UWP.dll">
       <PackagePath>PT-UWP.dll</PackagePath>
     </AppxPackagedFile>
